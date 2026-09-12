@@ -1,0 +1,320 @@
+// Prisma schema for AI-Driven Smart Logistics & Predictive Supply Chain Management System
+// Normalized PostgreSQL Relational Schema (3NF)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------
+// 1. Role-Based Access Control (RBAC) & Authentication
+// ---------------------------------------------------------
+
+model Role {
+  id          Int      @id @default(autoincrement())
+  name        String   @unique // 'ADMIN', 'MANAGER', 'STAFF'
+  description String?
+  createdAt   DateTime @default(now()) @map("created_at")
+  users       User[]
+
+  @@map("roles")
+}
+
+model User {
+  id           Int              @id @default(autoincrement())
+  roleId       Int              @map("role_id")
+  email        String           @unique
+  passwordHash String           @map("password_hash")
+  fullName     String           @map("full_name")
+  department   String?          @default("Logistics")
+  createdAt    DateTime         @default(now()) @map("created_at")
+  updatedAt    DateTime         @updatedAt @map("updated_at")
+
+  role         Role             @relation(fields: [roleId], references: [id])
+  orders       Order[]          @relation("OrdersCreatedByUser")
+  forecasts    DemandForecast[] @relation("ForecastsCreatedByUser")
+  auditLogs    AuditLog[]
+
+  @@map("users")
+}
+
+// ---------------------------------------------------------
+// 2. Suppliers & Products (Resolving M:N via ProductSupplier)
+// ---------------------------------------------------------
+
+model Supplier {
+  id              Int               @id @default(autoincrement())
+  name            String
+  contactName     String?           @map("contact_name")
+  email           String            @unique
+  phone           String?
+  address         String?
+  city            String
+  country         String
+  rating          Float             @default(4.5) // 1.0 to 5.0
+  status          String            @default("ACTIVE") // 'ACTIVE', 'INACTIVE', 'SUSPENDED'
+  leadTimeDays    Int               @default(7) @map("lead_time_days")
+  createdAt       DateTime          @default(now()) @map("created_at")
+  updatedAt       DateTime          @updatedAt @map("updated_at")
+
+  productSuppliers ProductSupplier[]
+
+  @@map("suppliers")
+}
+
+model Product {
+  id               Int               @id @default(autoincrement())
+  sku              String            @unique
+  name             String
+  category         String            // 'Electronics', 'Perishables', 'Raw Materials', 'Apparel', 'Automotive'
+  unitPrice        Float             @map("unit_price")
+  unitCost         Float             @map("unit_cost")
+  weightKg         Float?            @map("weight_kg")
+  dimensions       String?
+  createdAt        DateTime          @default(now()) @map("created_at")
+  updatedAt        DateTime          @updatedAt @map("updated_at")
+
+  productSuppliers ProductSupplier[]
+  inventory        Inventory[]
+  orderItems       OrderItem[]
+  demandForecasts  DemandForecast[]
+  stockAlerts      StockAlert[]
+
+  @@map("products")
+}
+
+// Resolves Product <-> Supplier Many-to-Many Relationship
+model ProductSupplier {
+  id          Int      @id @default(autoincrement())
+  productId   Int      @map("product_id")
+  supplierId  Int      @map("supplier_id")
+  supplierSku String?  @map("supplier_sku")
+  supplyPrice Float    @map("supply_price")
+  isPrimary   Boolean  @default(false) @map("is_primary")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  product     Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  supplier    Supplier @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+
+  @@unique([productId, supplierId])
+  @@map("product_suppliers")
+}
+
+// ---------------------------------------------------------
+// 3. Warehouses & Inventory (Resolving Product <-> Warehouse M:N)
+// ---------------------------------------------------------
+
+model Warehouse {
+  id          Int          @id @default(autoincrement())
+  code        String       @unique // e.g., 'WH-ORD-01'
+  name        String
+  location    String
+  city        String
+  capacitySqm Int          @map("capacity_sqm")
+  managerName String?      @map("manager_name")
+  status      String       @default("ACTIVE") // 'ACTIVE', 'MAINTENANCE'
+  createdAt   DateTime     @default(now()) @map("created_at")
+  updatedAt   DateTime     @updatedAt @map("updated_at")
+
+  inventory   Inventory[]
+  orderItems  OrderItem[]
+  routes      Route[]
+  stockAlerts StockAlert[]
+
+  @@map("warehouses")
+}
+
+// Resolves Product <-> Warehouse Many-to-Many Relationship
+model Inventory {
+  id               Int       @id @default(autoincrement())
+  productId        Int       @map("product_id")
+  warehouseId      Int       @map("warehouse_id")
+  quantity         Int       @default(0)
+  reorderThreshold Int       @default(20) @map("reorder_threshold")
+  maxCapacity      Int       @default(500) @map("max_capacity")
+  lastRestockedAt  DateTime? @map("last_restocked_at")
+  updatedAt        DateTime  @updatedAt @map("updated_at")
+
+  product          Product   @relation(fields: [productId], references: [id], onDelete: Cascade)
+  warehouse        Warehouse @relation(fields: [warehouseId], references: [id], onDelete: Cascade)
+
+  @@unique([productId, warehouseId])
+  @@index([productId, warehouseId])
+  @@map("inventory")
+}
+
+// ---------------------------------------------------------
+// 4. Orders & Order Items (Resolving Order <-> Product M:N)
+// ---------------------------------------------------------
+
+model Order {
+  id                 Int         @id @default(autoincrement())
+  orderNumber        String      @unique @map("order_number")
+  customerName       String      @map("customer_name")
+  customerEmail      String?     @map("customer_email")
+  destinationCity    String      @map("destination_city")
+  destinationAddress String?     @map("destination_address")
+  status             String      @default("PENDING") // 'PENDING', 'CONFIRMED', 'PROCESSING', 'SHIPPED', 'DELIVERED', 'CANCELLED'
+  totalAmount        Float       @map("total_amount")
+  priority           String      @default("MEDIUM") // 'LOW', 'MEDIUM', 'HIGH', 'URGENT'
+  createdById        Int         @map("created_by")
+  createdAt          DateTime    @default(now()) @map("created_at")
+  updatedAt          DateTime    @updatedAt @map("updated_at")
+
+  createdBy          User        @relation("OrdersCreatedByUser", fields: [createdById], references: [id])
+  items              OrderItem[]
+  shipment           Shipment?
+
+  @@index([createdAt(sort: Desc)])
+  @@map("orders")
+}
+
+// Resolves Order <-> Product Many-to-Many Relationship
+model OrderItem {
+  id          Int       @id @default(autoincrement())
+  orderId     Int       @map("order_id")
+  productId   Int       @map("product_id")
+  warehouseId Int       @map("warehouse_id")
+  quantity    Int
+  unitPrice   Float     @map("unit_price")
+  subtotal    Float
+  createdAt   DateTime  @default(now()) @map("created_at")
+
+  order       Order     @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  product     Product   @relation(fields: [productId], references: [id])
+  warehouse   Warehouse @relation(fields: [warehouseId], references: [id])
+
+  @@map("order_items")
+}
+
+// ---------------------------------------------------------
+// 5. Logistics Routes, Shipments & Milestone Tracking
+// ---------------------------------------------------------
+
+model Route {
+  id                 Int        @id @default(autoincrement())
+  originWarehouseId  Int        @map("origin_warehouse_id")
+  destinationCity    String     @map("destination_city")
+  distanceKm         Float      @map("distance_km")
+  transitDaysExpected Int       @map("transit_days_expected")
+  trafficCongestion  String     @default("MEDIUM") @map("traffic_congestion") // 'LOW', 'MEDIUM', 'HIGH'
+  weatherImpactScore Float      @default(0.0) @map("weather_impact_score") // 0.0 (clear) to 1.0 (severe)
+  createdAt          DateTime   @default(now()) @map("created_at")
+
+  originWarehouse    Warehouse  @relation(fields: [originWarehouseId], references: [id])
+  shipments          Shipment[]
+
+  @@map("routes")
+}
+
+model Shipment {
+  id                Int                @id @default(autoincrement())
+  trackingNumber    String             @unique @map("tracking_number")
+  orderId           Int                @unique @map("order_id")
+  routeId           Int                @map("route_id")
+  carrierName       String             @map("carrier_name") // 'DHL Express', 'FedEx', 'Maersk Logistics', etc.
+  status            String             @default("PREPARING") // 'PREPARING', 'IN_TRANSIT', 'OUT_FOR_DELIVERY', 'DELIVERED', 'DELAYED', 'CANCELLED'
+  shippedAt         DateTime?          @map("shipped_at")
+  estimatedDelivery DateTime?          @map("estimated_delivery")
+  actualDelivery    DateTime?          @map("actual_delivery")
+  currentLocation   String?            @map("current_location")
+  createdAt         DateTime           @default(now()) @map("created_at")
+  updatedAt         DateTime           @updatedAt @map("updated_at")
+
+  order             Order              @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  route             Route              @relation(fields: [routeId], references: [id])
+  trackingHistory   ShipmentTracking[]
+  riskScores        RiskScore[]
+
+  @@index([status])
+  @@map("shipments")
+}
+
+model ShipmentTracking {
+  id                  Int      @id @default(autoincrement())
+  shipmentId          Int      @map("shipment_id")
+  statusUpdate        String   @map("status_update")
+  location            String
+  checkpointTimestamp DateTime @map("checkpoint_timestamp")
+  notes               String?
+  createdAt           DateTime @default(now()) @map("created_at")
+
+  shipment            Shipment @relation(fields: [shipmentId], references: [id], onDelete: Cascade)
+
+  @@map("shipment_tracking")
+}
+
+// ---------------------------------------------------------
+// 6. Automated Alerts, Audit Trail & AI/ML Result Persistence
+// ---------------------------------------------------------
+
+// Populated by PostgreSQL Trigger on low-inventory events
+model StockAlert {
+  id              Int       @id @default(autoincrement())
+  productId       Int       @map("product_id")
+  warehouseId     Int       @map("warehouse_id")
+  alertType       String    @map("alert_type") // 'LOW_STOCK', 'CRITICAL_STOCK', 'OUT_OF_STOCK'
+  currentQuantity Int       @map("current_quantity")
+  threshold       Int
+  isResolved      Boolean   @default(false) @map("is_resolved")
+  createdAt       DateTime  @default(now()) @map("created_at")
+
+  product         Product   @relation(fields: [productId], references: [id], onDelete: Cascade)
+  warehouse       Warehouse @relation(fields: [warehouseId], references: [id], onDelete: Cascade)
+
+  @@map("stock_alerts")
+}
+
+// Stores offline-trained Demand Forecasting Regressor predictions
+model DemandForecast {
+  id                  Int      @id @default(autoincrement())
+  productId           Int      @map("product_id")
+  forecastPeriod      String   @map("forecast_period") // e.g. '2026-Q4', '2026-10'
+  historicalAvgSales  Float    @map("historical_avg_sales")
+  predictedDemand     Int      @map("predicted_demand")
+  confidenceScore     Float    @map("confidence_score") // R^2 or model certainty 0.0 - 1.0
+  suggestedReorderQty Int      @map("suggested_reorder_qty")
+  generatedAt         DateTime @default(now()) @map("generated_at")
+  createdById         Int?     @map("created_by")
+
+  product             Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  createdBy           User?    @relation("ForecastsCreatedByUser", fields: [createdById], references: [id])
+
+  @@index([productId, forecastPeriod])
+  @@map("demand_forecasts")
+}
+
+// Stores offline-trained Delay Risk Classifier predictions
+model RiskScore {
+  id                  Int      @id @default(autoincrement())
+  shipmentId          Int      @map("shipment_id")
+  delayProbability    Float    @map("delay_probability") // 0.0 to 1.0
+  predictedDelayRisk  String   @map("predicted_delay_risk") // 'LOW', 'MEDIUM', 'HIGH'
+  primaryRiskFactor   String   @map("primary_risk_factor") // 'Severe Weather', 'Port Congestion', 'Route Distance'
+  suggestedMitigation String?  @map("suggested_mitigation")
+  calculatedAt        DateTime @default(now()) @map("calculated_at")
+
+  shipment            Shipment @relation(fields: [shipmentId], references: [id], onDelete: Cascade)
+
+  @@map("risk_scores")
+}
+
+// User-driven mutation audit trail
+model AuditLog {
+  id        Int      @id @default(autoincrement())
+  userId    Int?     @map("user_id")
+  action    String   // 'CREATE_ORDER', 'UPDATE_INVENTORY', 'PROMOTE_USER', 'CANCEL_SHIPMENT'
+  tableName String   @map("table_name")
+  recordId  Int?     @map("record_id")
+  oldData   Json?    @map("old_data")
+  newData   Json?    @map("new_data")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user      User?    @relation(fields: [userId], references: [id])
+
+  @@map("audit_logs")
+}
