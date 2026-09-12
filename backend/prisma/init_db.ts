@@ -1,61 +1,38 @@
 import { PrismaClient } from '@prisma/client';
-import fs from 'fs';
-import path from 'path';
 
 const prisma = new PrismaClient();
 
 async function initDbFeatures() {
   console.log('--- Initializing Advanced DBMS Features (Views, Triggers, Constraints) ---');
-  const sqlFilePath = path.join(__dirname, 'views_and_triggers.sql');
-  const sqlContent = fs.readFileSync(sqlFilePath, 'utf-8');
 
-  // Split by statement or execute blocks
-  const statements = sqlContent
-    .split(';')
-    .map((stmt) => stmt.trim())
-    .filter((stmt) => stmt.length > 0);
+  const statements = [
+    // 1. Check Constraints
+    `ALTER TABLE suppliers DROP CONSTRAINT IF EXISTS chk_supplier_rating`,
+    `ALTER TABLE suppliers ADD CONSTRAINT chk_supplier_rating CHECK (rating >= 1.0 AND rating <= 5.0)`,
 
-  // Note: Trigger functions have internal semicolons inside $$ ... $$, so we execute the custom blocks carefully
-  try {
-    console.log('1. Applying Check Constraints & Views...');
-    // Execute views and check constraints
-    await prisma.$executeRawUnsafe(`
-      ALTER TABLE suppliers DROP CONSTRAINT IF EXISTS chk_supplier_rating;
-      ALTER TABLE suppliers ADD CONSTRAINT chk_supplier_rating CHECK (rating >= 1.0 AND rating <= 5.0);
-    `);
-    await prisma.$executeRawUnsafe(`
-      ALTER TABLE suppliers DROP CONSTRAINT IF EXISTS chk_supplier_lead_time;
-      ALTER TABLE suppliers ADD CONSTRAINT chk_supplier_lead_time CHECK (lead_time_days > 0);
-    `);
-    await prisma.$executeRawUnsafe(`
-      ALTER TABLE products DROP CONSTRAINT IF EXISTS chk_product_unit_price;
-      ALTER TABLE products ADD CONSTRAINT chk_product_unit_price CHECK (unit_price > 0);
-    `);
-    await prisma.$executeRawUnsafe(`
-      ALTER TABLE products DROP CONSTRAINT IF EXISTS chk_product_unit_cost;
-      ALTER TABLE products ADD CONSTRAINT chk_product_unit_cost CHECK (unit_cost > 0);
-    `);
-    await prisma.$executeRawUnsafe(`
-      ALTER TABLE inventory DROP CONSTRAINT IF EXISTS chk_inventory_quantity_non_negative;
-      ALTER TABLE inventory ADD CONSTRAINT chk_inventory_quantity_non_negative CHECK (quantity >= 0);
-    `);
-    await prisma.$executeRawUnsafe(`
-      ALTER TABLE inventory DROP CONSTRAINT IF EXISTS chk_inventory_reorder_threshold;
-      ALTER TABLE inventory ADD CONSTRAINT chk_inventory_reorder_threshold CHECK (reorder_threshold >= 0);
-    `);
-    await prisma.$executeRawUnsafe(`
-      ALTER TABLE orders DROP CONSTRAINT IF EXISTS chk_order_total_amount;
-      ALTER TABLE orders ADD CONSTRAINT chk_order_total_amount CHECK (total_amount >= 0);
-    `);
-    await prisma.$executeRawUnsafe(`
-      ALTER TABLE order_items DROP CONSTRAINT IF EXISTS chk_order_item_quantity;
-      ALTER TABLE order_items ADD CONSTRAINT chk_order_item_quantity CHECK (quantity > 0);
-    `);
-    console.log('✓ Check constraints successfully applied.');
+    `ALTER TABLE suppliers DROP CONSTRAINT IF EXISTS chk_supplier_lead_time`,
+    `ALTER TABLE suppliers ADD CONSTRAINT chk_supplier_lead_time CHECK (lead_time_days > 0)`,
 
-    console.log('2. Creating View: v_inventory_stock_status...');
-    await prisma.$executeRawUnsafe(`
-      CREATE OR REPLACE VIEW v_inventory_stock_status AS
+    `ALTER TABLE products DROP CONSTRAINT IF EXISTS chk_product_unit_price`,
+    `ALTER TABLE products ADD CONSTRAINT chk_product_unit_price CHECK (unit_price > 0)`,
+
+    `ALTER TABLE products DROP CONSTRAINT IF EXISTS chk_product_unit_cost`,
+    `ALTER TABLE products ADD CONSTRAINT chk_product_unit_cost CHECK (unit_cost > 0)`,
+
+    `ALTER TABLE inventory DROP CONSTRAINT IF EXISTS chk_inventory_quantity_non_negative`,
+    `ALTER TABLE inventory ADD CONSTRAINT chk_inventory_quantity_non_negative CHECK (quantity >= 0)`,
+
+    `ALTER TABLE inventory DROP CONSTRAINT IF EXISTS chk_inventory_reorder_threshold`,
+    `ALTER TABLE inventory ADD CONSTRAINT chk_inventory_reorder_threshold CHECK (reorder_threshold >= 0)`,
+
+    `ALTER TABLE orders DROP CONSTRAINT IF EXISTS chk_order_total_amount`,
+    `ALTER TABLE orders ADD CONSTRAINT chk_order_total_amount CHECK (total_amount >= 0)`,
+
+    `ALTER TABLE order_items DROP CONSTRAINT IF EXISTS chk_order_item_quantity`,
+    `ALTER TABLE order_items ADD CONSTRAINT chk_order_item_quantity CHECK (quantity > 0)`,
+
+    // 2. View: v_inventory_stock_status
+    `CREATE OR REPLACE VIEW v_inventory_stock_status AS
       SELECT 
           i.id AS inventory_id,
           p.id AS product_id,
@@ -83,13 +60,10 @@ async function initDbFeatures() {
           i.updated_at AS last_updated_at
       FROM inventory i
       JOIN products p ON i.product_id = p.id
-      JOIN warehouses w ON i.warehouse_id = w.id;
-    `);
-    console.log('✓ View v_inventory_stock_status successfully created.');
+      JOIN warehouses w ON i.warehouse_id = w.id`,
 
-    console.log('3. Creating View: v_shipment_delay_overview...');
-    await prisma.$executeRawUnsafe(`
-      CREATE OR REPLACE VIEW v_shipment_delay_overview AS
+    // 3. View: v_shipment_delay_overview
+    `CREATE OR REPLACE VIEW v_shipment_delay_overview AS
       SELECT 
           s.id AS shipment_id,
           s.tracking_number,
@@ -113,13 +87,10 @@ async function initDbFeatures() {
       JOIN orders o ON s.order_id = o.id
       JOIN routes r ON s.route_id = r.id
       JOIN warehouses w ON r.origin_warehouse_id = w.id
-      LEFT JOIN risk_scores rs ON rs.shipment_id = s.id;
-    `);
-    console.log('✓ View v_shipment_delay_overview successfully created.');
+      LEFT JOIN risk_scores rs ON rs.shipment_id = s.id`,
 
-    console.log('4. Creating Trigger Function: fn_check_inventory_alert()...');
-    await prisma.$executeRawUnsafe(`
-      CREATE OR REPLACE FUNCTION fn_check_inventory_alert()
+    // 4. Trigger function
+    `CREATE OR REPLACE FUNCTION fn_check_inventory_alert()
       RETURNS TRIGGER AS $$
       BEGIN
           IF NEW.quantity <= NEW.reorder_threshold THEN
@@ -147,22 +118,25 @@ async function initDbFeatures() {
           END IF;
           RETURN NEW;
       END;
-      $$ LANGUAGE plpgsql;
-    `);
+      $$ LANGUAGE plpgsql`,
 
-    console.log('5. Attaching Trigger: trg_inventory_low_stock_check to table inventory...');
-    await prisma.$executeRawUnsafe(`
-      DROP TRIGGER IF EXISTS trg_inventory_low_stock_check ON inventory;
-      CREATE TRIGGER trg_inventory_low_stock_check
+    // 5. Trigger drop and attach
+    `DROP TRIGGER IF EXISTS trg_inventory_low_stock_check ON inventory`,
+    `CREATE TRIGGER trg_inventory_low_stock_check
       AFTER UPDATE OF quantity OR INSERT ON inventory
       FOR EACH ROW
-      EXECUTE FUNCTION fn_check_inventory_alert();
-    `);
-    console.log('✓ Trigger trg_inventory_low_stock_check successfully attached.');
+      EXECUTE FUNCTION fn_check_inventory_alert()`,
+  ];
 
-    console.log('--- All DBMS Advanced Features Initialized Successfully! ---');
+  try {
+    for (let i = 0; i < statements.length; i++) {
+      const stmt = statements[i];
+      console.log(`Executing step ${i + 1}/${statements.length}...`);
+      await prisma.$executeRawUnsafe(stmt);
+    }
+    console.log('✅ All DBMS Views, Triggers, and Constraints Initialized Successfully!');
   } catch (error) {
-    console.error('Error applying DBMS views/triggers:', error);
+    console.error('Error applying DBMS features:', error);
     process.exit(1);
   } finally {
     await prisma.$disconnect();
