@@ -2,10 +2,11 @@
   "name": "smart-logistics-backend",
   "version": "1.0.0",
   "description": "AI-Driven Smart Logistics & Predictive Supply Chain Management System - Backend",
-  "main": "dist/server.js",
+  "type": "module",
+  "main": "dist/src/server.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/src/server.js",
     "dev": "tsx watch src/server.ts",
     "prisma:generate": "prisma generate",
     "prisma:push": "prisma db push",
@@ -42,4 +43,3 @@
     "typescript": "^5.7.3"
   }
 }
-

@@ -3,37 +3,29 @@
 -- ====================================================================
 
 -- 1. PostgreSQL Check Constraints
-ALTER TABLE suppliers 
-  DROP CONSTRAINT IF EXISTS chk_supplier_rating,
-  ADD CONSTRAINT chk_supplier_rating CHECK (rating >= 1.0 AND rating <= 5.0);
+ALTER TABLE suppliers DROP CONSTRAINT IF EXISTS chk_supplier_rating;
+ALTER TABLE suppliers ADD CONSTRAINT chk_supplier_rating CHECK (rating >= 1.0 AND rating <= 5.0);
 
-ALTER TABLE suppliers
-  DROP CONSTRAINT IF EXISTS chk_supplier_lead_time,
-  ADD CONSTRAINT chk_supplier_lead_time CHECK (lead_time_days > 0);
+ALTER TABLE suppliers DROP CONSTRAINT IF EXISTS chk_supplier_lead_time;
+ALTER TABLE suppliers ADD CONSTRAINT chk_supplier_lead_time CHECK (lead_time_days > 0);
 
-ALTER TABLE products
-  DROP CONSTRAINT IF EXISTS chk_product_unit_price,
-  ADD CONSTRAINT chk_product_unit_price CHECK (unit_price > 0);
+ALTER TABLE products DROP CONSTRAINT IF EXISTS chk_product_unit_price;
+ALTER TABLE products ADD CONSTRAINT chk_product_unit_price CHECK (unit_price > 0);
 
-ALTER TABLE products
-  DROP CONSTRAINT IF EXISTS chk_product_unit_cost,
-  ADD CONSTRAINT chk_product_unit_cost CHECK (unit_cost > 0);
+ALTER TABLE products DROP CONSTRAINT IF EXISTS chk_product_unit_cost;
+ALTER TABLE products ADD CONSTRAINT chk_product_unit_cost CHECK (unit_cost > 0);
 
-ALTER TABLE inventory
-  DROP CONSTRAINT IF EXISTS chk_inventory_quantity_non_negative,
-  ADD CONSTRAINT chk_inventory_quantity_non_negative CHECK (quantity >= 0);
+ALTER TABLE inventory DROP CONSTRAINT IF EXISTS chk_inventory_quantity_non_negative;
+ALTER TABLE inventory ADD CONSTRAINT chk_inventory_quantity_non_negative CHECK (quantity >= 0);
 
-ALTER TABLE inventory
-  DROP CONSTRAINT IF EXISTS chk_inventory_reorder_threshold,
-  ADD CONSTRAINT chk_inventory_reorder_threshold CHECK (reorder_threshold >= 0);
+ALTER TABLE inventory DROP CONSTRAINT IF EXISTS chk_inventory_reorder_threshold;
+ALTER TABLE inventory ADD CONSTRAINT chk_inventory_reorder_threshold CHECK (reorder_threshold >= 0);
 
-ALTER TABLE orders
-  DROP CONSTRAINT IF EXISTS chk_order_total_amount,
-  ADD CONSTRAINT chk_order_total_amount CHECK (total_amount >= 0);
+ALTER TABLE orders DROP CONSTRAINT IF EXISTS chk_order_total_amount;
+ALTER TABLE orders ADD CONSTRAINT chk_order_total_amount CHECK (total_amount >= 0);
 
-ALTER TABLE order_items
-  DROP CONSTRAINT IF EXISTS chk_order_item_quantity,
-  ADD CONSTRAINT chk_order_item_quantity CHECK (quantity > 0);
+ALTER TABLE order_items DROP CONSTRAINT IF EXISTS chk_order_item_quantity;
+ALTER TABLE order_items ADD CONSTRAINT chk_order_item_quantity CHECK (quantity > 0);
 
 -- 2. PostgreSQL View: Current Stock Status & Stock Health
 -- Joins Product, Warehouse, and Inventory with computed health status and valuation
@@ -132,4 +124,3 @@ CREATE TRIGGER trg_inventory_low_stock_check
 AFTER UPDATE OF quantity OR INSERT ON inventory
 FOR EACH ROW
 EXECUTE FUNCTION fn_check_inventory_alert();
-
