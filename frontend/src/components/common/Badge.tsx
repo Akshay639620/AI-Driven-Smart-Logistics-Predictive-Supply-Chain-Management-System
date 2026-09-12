@@ -24,3 +24,4 @@ export const Badge: React.FC<BadgeProps> = ({ variant = 'slate', children, class
     </span>
   );
 };
+

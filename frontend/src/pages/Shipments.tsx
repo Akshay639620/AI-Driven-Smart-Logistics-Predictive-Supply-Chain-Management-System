@@ -278,3 +278,4 @@ export const Shipments: React.FC = () => {
     </div>
   );
 };
+

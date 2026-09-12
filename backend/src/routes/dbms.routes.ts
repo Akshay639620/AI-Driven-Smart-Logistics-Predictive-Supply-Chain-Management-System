@@ -172,3 +172,4 @@ router.get('/explain-query', authenticateJWT, async (req: AuthRequest, res: Resp
 });
 
 export default router;
+

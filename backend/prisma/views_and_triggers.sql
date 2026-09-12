@@ -132,3 +132,4 @@ CREATE TRIGGER trg_inventory_low_stock_check
 AFTER UPDATE OF quantity OR INSERT ON inventory
 FOR EACH ROW
 EXECUTE FUNCTION fn_check_inventory_alert();
+

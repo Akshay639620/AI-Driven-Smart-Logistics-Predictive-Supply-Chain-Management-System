@@ -95,7 +95,7 @@ export const Sidebar: React.FC = () => {
       {/* Footer link to Swagger docs & Schema */}
       <div className="p-4 border-t border-slate-800/80 space-y-2">
         <a
-          href="http://localhost:5000/api-docs"
+          href="http://localhost:5050/api-docs"
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-between px-3.5 py-2 rounded-xl text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/60 transition-colors"

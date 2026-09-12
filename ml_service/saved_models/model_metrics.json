@@ -1,0 +1,15 @@
+{
+  "demand_model": {
+    "type": "RandomForestRegressor",
+    "n_estimators": 100,
+    "mae": 5.8,
+    "rmse": 7.58,
+    "r2_score": 0.938
+  },
+  "shipment_risk_model": {
+    "type": "RandomForestClassifier",
+    "n_estimators": 120,
+    "accuracy": 0.598,
+    "roc_auc": 0.659
+  }
+}

@@ -102,3 +102,4 @@ export const Navbar: React.FC = () => {
     </header>
   );
 };
+

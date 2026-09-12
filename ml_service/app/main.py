@@ -147,3 +147,4 @@ def predict_delay_risk(req: DelayRiskRequest):
         primary_risk_factor=primary_factor,
         suggested_mitigation=mitigations[risk_level],
     )
+

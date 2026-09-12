@@ -1,0 +1,2001 @@
+carrier_name,distance_km,transit_days_expected,traffic_congestion,weather_impact_score,order_priority,is_delayed
+Maersk Intermodal,2588.8,5,HIGH,0.3,LOW,1
+DHL Express Global,2323.3,4,MEDIUM,0.05,HIGH,0
+Maersk Intermodal,2626.8,6,MEDIUM,0.95,LOW,1
+DHL Express Global,2844.4,6,LOW,0.76,MEDIUM,1
+UPS Supply Chain Solutions,2142.8,4,MEDIUM,0.29,URGENT,1
+Maersk Intermodal,885.0,3,LOW,0.3,URGENT,1
+FedEx Freight,604.0,3,MEDIUM,0.75,MEDIUM,1
+UPS Supply Chain Solutions,548.1,1,MEDIUM,0.14,MEDIUM,0
+DHL Express Global,1045.7,3,MEDIUM,0.4,MEDIUM,1
+UPS Supply Chain Solutions,1298.9,4,MEDIUM,0.06,LOW,0
+Maersk Intermodal,1539.9,3,LOW,0.3,LOW,0
+UPS Supply Chain Solutions,1104.4,3,LOW,0.46,MEDIUM,1
+FedEx Freight,543.3,2,MEDIUM,0.04,LOW,0
+FedEx Freight,1431.2,4,MEDIUM,0.89,MEDIUM,1
+Maersk Intermodal,1542.5,3,LOW,0.38,LOW,1
+DHL Express Global,1496.0,4,MEDIUM,0.45,URGENT,0
+UPS Supply Chain Solutions,1205.4,4,HIGH,0.91,LOW,0
+UPS Supply Chain Solutions,1927.6,5,LOW,0.17,URGENT,0
+UPS Supply Chain Solutions,2559.3,5,HIGH,0.28,LOW,0
+Maersk Intermodal,1319.3,4,LOW,0.75,MEDIUM,0
+DHL Express Global,309.5,2,LOW,0.36,HIGH,0
+Maersk Intermodal,1519.7,4,HIGH,0.57,LOW,1
+FedEx Freight,559.4,2,LOW,0.52,MEDIUM,0
+FedEx Freight,3551.6,6,HIGH,0.18,MEDIUM,0
+FedEx Freight,2356.3,5,MEDIUM,0.53,HIGH,1
+DHL Express Global,2483.2,5,LOW,0.64,MEDIUM,0
+FedEx Freight,1189.6,2,MEDIUM,0.94,HIGH,1
+FedEx Freight,1912.4,5,HIGH,0.17,LOW,0
+Maersk Intermodal,3673.8,8,MEDIUM,0.84,URGENT,1
+Maersk Intermodal,2519.9,5,MEDIUM,0.07,LOW,1
+UPS Supply Chain Solutions,1316.0,4,MEDIUM,0.33,HIGH,1
+Maersk Intermodal,417.0,2,HIGH,0.1,LOW,0
+FedEx Freight,1384.9,4,MEDIUM,0.83,MEDIUM,1
+FedEx Freight,2739.8,5,HIGH,0.84,LOW,1
+DHL Express Global,2614.3,5,LOW,0.62,MEDIUM,0
+DHL Express Global,3186.5,7,HIGH,0.16,LOW,1
+UPS Supply Chain Solutions,1533.5,4,MEDIUM,0.74,MEDIUM,1
+FedEx Freight,1259.9,4,LOW,0.01,LOW,0
+FedEx Freight,539.8,1,MEDIUM,0.36,URGENT,0
+FedEx Freight,747.5,3,MEDIUM,0.71,HIGH,1
+FedEx Freight,525.4,2,LOW,0.4,LOW,0
+UPS Supply Chain Solutions,898.3,3,MEDIUM,0.36,HIGH,0
+Maersk Intermodal,1153.4,2,MEDIUM,0.7,URGENT,1
+Maersk Intermodal,665.3,2,HIGH,0.71,MEDIUM,0
+DHL Express Global,3525.0,7,MEDIUM,0.07,URGENT,0
+DHL Express Global,1652.6,3,HIGH,0.43,LOW,1
+DHL Express Global,3648.0,8,MEDIUM,0.11,HIGH,0
+FedEx Freight,996.2,2,HIGH,0.6,URGENT,1
+UPS Supply Chain Solutions,976.1,3,LOW,0.13,MEDIUM,1
+Maersk Intermodal,3038.4,6,HIGH,0.32,LOW,1
+UPS Supply Chain Solutions,3640.4,8,LOW,0.52,MEDIUM,1
+DHL Express Global,984.5,3,HIGH,0.27,LOW,1
+Maersk Intermodal,1557.1,4,LOW,0.74,LOW,1
+DHL Express Global,2771.8,5,MEDIUM,0.52,HIGH,1
+FedEx Freight,1784.9,4,MEDIUM,0.95,MEDIUM,1
+UPS Supply Chain Solutions,1451.2,3,MEDIUM,0.07,MEDIUM,0
+DHL Express Global,3668.2,8,LOW,0.3,HIGH,1
+UPS Supply Chain Solutions,3685.2,8,MEDIUM,0.32,MEDIUM,1
+Maersk Intermodal,3450.8,7,MEDIUM,0.53,URGENT,1
+Maersk Intermodal,1052.5,3,MEDIUM,0.91,MEDIUM,1
+FedEx Freight,3595.7,7,MEDIUM,0.55,MEDIUM,1
+DHL Express Global,1202.1,4,LOW,0.48,MEDIUM,1
+UPS Supply Chain Solutions,557.5,1,MEDIUM,0.77,LOW,1
+UPS Supply Chain Solutions,2875.8,6,LOW,0.34,URGENT,1
+FedEx Freight,758.1,3,LOW,0.75,URGENT,1
+DHL Express Global,2911.9,6,MEDIUM,0.51,LOW,1
+FedEx Freight,2988.7,6,LOW,0.85,LOW,0
+Maersk Intermodal,2707.9,6,MEDIUM,0.64,LOW,0
+DHL Express Global,2566.1,6,MEDIUM,0.77,URGENT,0
+Maersk Intermodal,1149.5,2,LOW,0.64,LOW,0
+Maersk Intermodal,2840.2,5,HIGH,0.88,HIGH,1
+UPS Supply Chain Solutions,2963.1,6,LOW,0.48,LOW,1
+DHL Express Global,948.2,3,MEDIUM,0.46,URGENT,1
+UPS Supply Chain Solutions,1696.9,3,LOW,0.91,LOW,0
+DHL Express Global,482.9,2,MEDIUM,0.09,HIGH,1
+DHL Express Global,370.0,1,MEDIUM,0.58,URGENT,1
+FedEx Freight,2792.1,6,HIGH,0.65,HIGH,1
+DHL Express Global,3047.1,7,HIGH,0.47,LOW,1
+FedEx Freight,1366.8,3,MEDIUM,0.99,HIGH,1
+UPS Supply Chain Solutions,3199.0,7,LOW,0.29,LOW,0
+UPS Supply Chain Solutions,377.5,2,MEDIUM,0.35,URGENT,0
+DHL Express Global,2674.8,6,HIGH,0.98,HIGH,1
+UPS Supply Chain Solutions,1693.0,3,MEDIUM,0.41,HIGH,0
+DHL Express Global,3784.3,7,LOW,0.16,URGENT,1
+FedEx Freight,714.2,3,HIGH,0.99,URGENT,0
+Maersk Intermodal,703.9,2,HIGH,0.08,HIGH,0
+FedEx Freight,452.1,1,HIGH,0.06,HIGH,0
+Maersk Intermodal,1984.8,5,MEDIUM,0.34,HIGH,1
+DHL Express Global,1582.7,4,HIGH,0.81,MEDIUM,1
+DHL Express Global,1797.4,4,LOW,0.29,HIGH,0
+FedEx Freight,2792.7,6,LOW,0.6,LOW,0
+UPS Supply Chain Solutions,1602.9,3,MEDIUM,0.57,URGENT,0
+Maersk Intermodal,3675.4,8,LOW,0.67,MEDIUM,1
+Maersk Intermodal,944.1,2,LOW,0.2,URGENT,0
+UPS Supply Chain Solutions,2919.0,6,LOW,0.72,LOW,1
+DHL Express Global,445.6,2,MEDIUM,0.47,URGENT,0
+DHL Express Global,1502.4,3,HIGH,0.0,URGENT,0
+UPS Supply Chain Solutions,1448.5,3,LOW,0.75,MEDIUM,1
+FedEx Freight,1223.9,4,LOW,0.03,MEDIUM,0
+DHL Express Global,3344.7,7,MEDIUM,0.64,HIGH,1
+UPS Supply Chain Solutions,2565.1,5,HIGH,0.89,URGENT,1
+Maersk Intermodal,1096.1,2,HIGH,0.39,MEDIUM,1
+DHL Express Global,589.6,2,MEDIUM,0.94,LOW,1
+UPS Supply Chain Solutions,2614.7,6,LOW,0.43,URGENT,1
+UPS Supply Chain Solutions,1946.0,4,MEDIUM,0.67,HIGH,1
+FedEx Freight,881.7,3,LOW,0.72,HIGH,0
+UPS Supply Chain Solutions,3721.9,8,MEDIUM,0.48,MEDIUM,1
+UPS Supply Chain Solutions,2279.1,4,MEDIUM,0.18,MEDIUM,1
+Maersk Intermodal,2287.4,4,HIGH,0.06,LOW,0
+FedEx Freight,1998.7,4,MEDIUM,0.62,HIGH,1
+UPS Supply Chain Solutions,2628.0,6,HIGH,0.87,URGENT,1
+Maersk Intermodal,1326.9,4,LOW,0.08,HIGH,0
+FedEx Freight,1997.8,5,LOW,0.86,URGENT,0
+DHL Express Global,1691.2,4,MEDIUM,0.74,MEDIUM,1
+FedEx Freight,2929.0,5,HIGH,0.03,LOW,1
+UPS Supply Chain Solutions,2958.2,5,MEDIUM,0.6,MEDIUM,1
+Maersk Intermodal,2486.1,6,LOW,0.24,LOW,0
+FedEx Freight,919.7,3,HIGH,0.59,HIGH,0
+Maersk Intermodal,2758.2,5,HIGH,0.65,MEDIUM,1
+DHL Express Global,3747.1,8,MEDIUM,0.94,MEDIUM,1
+Maersk Intermodal,1389.2,4,MEDIUM,0.1,LOW,0
+DHL Express Global,1087.1,3,MEDIUM,0.47,MEDIUM,1
+Maersk Intermodal,389.1,1,HIGH,0.81,URGENT,1
+Maersk Intermodal,1734.5,4,LOW,0.34,MEDIUM,0
+FedEx Freight,3501.6,6,LOW,0.04,LOW,0
+Maersk Intermodal,818.5,2,LOW,0.88,URGENT,1
+Maersk Intermodal,3164.4,6,HIGH,0.64,MEDIUM,1
+Maersk Intermodal,1259.5,4,MEDIUM,0.58,HIGH,0
+FedEx Freight,374.1,2,MEDIUM,0.5,MEDIUM,0
+FedEx Freight,2806.6,6,LOW,0.11,URGENT,1
+UPS Supply Chain Solutions,1518.1,4,HIGH,0.83,LOW,1
+Maersk Intermodal,2822.9,5,LOW,0.53,HIGH,0
+DHL Express Global,1728.0,4,MEDIUM,0.22,URGENT,0
+Maersk Intermodal,1418.7,3,MEDIUM,0.56,MEDIUM,0
+Maersk Intermodal,2487.6,6,LOW,0.1,MEDIUM,0
+DHL Express Global,2940.0,5,HIGH,0.68,MEDIUM,1
+Maersk Intermodal,3314.3,7,MEDIUM,0.85,MEDIUM,1
+UPS Supply Chain Solutions,3777.3,8,LOW,0.44,LOW,1
+UPS Supply Chain Solutions,2488.3,6,MEDIUM,0.57,URGENT,1
+DHL Express Global,1942.6,4,HIGH,0.37,URGENT,0
+UPS Supply Chain Solutions,3408.7,7,HIGH,0.39,MEDIUM,1
+DHL Express Global,1280.8,4,MEDIUM,0.54,URGENT,1
+UPS Supply Chain Solutions,1819.7,4,HIGH,0.55,HIGH,0
+Maersk Intermodal,1670.8,3,LOW,0.67,HIGH,1
+UPS Supply Chain Solutions,3357.9,6,MEDIUM,0.14,LOW,0
+FedEx Freight,945.2,2,MEDIUM,0.69,HIGH,0
+UPS Supply Chain Solutions,1862.0,5,MEDIUM,0.39,HIGH,0
+Maersk Intermodal,2031.8,4,LOW,0.01,LOW,1
+FedEx Freight,375.8,1,LOW,0.89,URGENT,1
+UPS Supply Chain Solutions,2811.0,5,MEDIUM,0.24,MEDIUM,0
+Maersk Intermodal,1041.3,2,LOW,0.16,LOW,0
+UPS Supply Chain Solutions,885.2,3,MEDIUM,0.51,LOW,1
+UPS Supply Chain Solutions,3440.4,7,HIGH,0.78,MEDIUM,1
+UPS Supply Chain Solutions,2196.6,5,LOW,0.28,LOW,0
+DHL Express Global,3337.9,6,MEDIUM,0.71,HIGH,0
+DHL Express Global,1216.1,4,MEDIUM,0.59,HIGH,0
+FedEx Freight,3690.4,8,MEDIUM,0.33,LOW,1
+Maersk Intermodal,2211.3,4,MEDIUM,0.34,HIGH,1
+Maersk Intermodal,754.2,3,MEDIUM,0.98,URGENT,0
+DHL Express Global,1185.2,2,MEDIUM,0.92,LOW,1
+UPS Supply Chain Solutions,3430.8,7,HIGH,0.08,URGENT,1
+UPS Supply Chain Solutions,2641.8,5,HIGH,0.09,URGENT,1
+DHL Express Global,489.0,2,MEDIUM,0.38,MEDIUM,0
+FedEx Freight,610.2,2,LOW,0.58,LOW,0
+DHL Express Global,3101.4,7,MEDIUM,0.37,LOW,0
+DHL Express Global,681.5,2,MEDIUM,0.16,URGENT,0
+FedEx Freight,507.7,1,LOW,0.32,URGENT,0
+DHL Express Global,3723.9,8,MEDIUM,0.15,MEDIUM,0
+UPS Supply Chain Solutions,3121.3,6,LOW,1.0,MEDIUM,0
+DHL Express Global,3478.1,7,LOW,0.65,URGENT,0
+DHL Express Global,3494.5,7,LOW,0.71,HIGH,1
+UPS Supply Chain Solutions,1082.2,2,MEDIUM,0.42,LOW,1
+FedEx Freight,1778.7,4,LOW,0.24,MEDIUM,0
+DHL Express Global,2019.7,4,LOW,0.61,LOW,1
+FedEx Freight,432.8,2,MEDIUM,0.25,MEDIUM,0
+Maersk Intermodal,3305.8,7,MEDIUM,0.97,LOW,1
+UPS Supply Chain Solutions,3712.7,8,MEDIUM,0.93,MEDIUM,1
+UPS Supply Chain Solutions,2324.2,4,LOW,0.77,LOW,1
+Maersk Intermodal,2479.2,6,MEDIUM,0.1,URGENT,0
+FedEx Freight,3407.1,6,MEDIUM,0.38,MEDIUM,1
+DHL Express Global,1511.6,4,MEDIUM,0.61,URGENT,0
+FedEx Freight,2061.3,4,LOW,0.59,HIGH,1
+DHL Express Global,1150.5,2,MEDIUM,0.79,URGENT,0
+FedEx Freight,3317.3,6,LOW,0.83,LOW,0
+UPS Supply Chain Solutions,2291.9,4,HIGH,0.54,MEDIUM,1
+UPS Supply Chain Solutions,479.2,2,LOW,0.4,URGENT,0
+UPS Supply Chain Solutions,1303.8,4,LOW,0.16,HIGH,0
+Maersk Intermodal,835.9,2,MEDIUM,0.04,URGENT,1
+Maersk Intermodal,2270.1,4,LOW,0.29,URGENT,1
+DHL Express Global,2742.3,6,LOW,0.64,MEDIUM,1
+FedEx Freight,1979.2,5,LOW,0.78,MEDIUM,1
+Maersk Intermodal,3235.3,7,MEDIUM,0.3,HIGH,1
+DHL Express Global,2646.2,5,HIGH,0.36,URGENT,1
+FedEx Freight,1895.8,4,HIGH,0.93,HIGH,0
+FedEx Freight,839.1,3,MEDIUM,0.39,URGENT,0
+Maersk Intermodal,3778.2,8,MEDIUM,0.28,HIGH,0
+FedEx Freight,1314.1,4,LOW,0.37,LOW,1
+Maersk Intermodal,2067.7,5,LOW,0.02,URGENT,1
+Maersk Intermodal,3597.5,7,MEDIUM,0.8,MEDIUM,1
+FedEx Freight,3285.5,7,MEDIUM,0.21,MEDIUM,0
+DHL Express Global,1443.6,3,MEDIUM,0.36,HIGH,0
+Maersk Intermodal,2993.2,5,LOW,0.61,URGENT,1
+FedEx Freight,3150.9,6,LOW,0.25,URGENT,0
+UPS Supply Chain Solutions,782.0,3,LOW,0.51,MEDIUM,0
+UPS Supply Chain Solutions,2404.8,6,LOW,0.03,LOW,0
+Maersk Intermodal,3087.1,7,MEDIUM,0.88,LOW,1
+UPS Supply Chain Solutions,1186.0,2,MEDIUM,0.33,LOW,0
+DHL Express Global,2029.4,5,MEDIUM,0.86,LOW,0
+UPS Supply Chain Solutions,2396.9,4,HIGH,0.43,URGENT,0
+Maersk Intermodal,2338.9,5,MEDIUM,0.87,MEDIUM,0
+FedEx Freight,3287.2,7,LOW,0.6,URGENT,1
+DHL Express Global,616.1,2,MEDIUM,0.82,URGENT,0
+UPS Supply Chain Solutions,898.0,2,HIGH,0.41,HIGH,0
+DHL Express Global,1337.8,3,MEDIUM,0.54,HIGH,0
+Maersk Intermodal,2573.3,6,MEDIUM,0.1,MEDIUM,1
+Maersk Intermodal,3699.5,8,LOW,0.19,HIGH,1
+DHL Express Global,3790.3,8,HIGH,0.43,URGENT,1
+UPS Supply Chain Solutions,2505.0,6,MEDIUM,0.19,URGENT,0
+FedEx Freight,1872.4,5,HIGH,0.13,URGENT,1
+UPS Supply Chain Solutions,3767.8,7,LOW,0.68,LOW,1
+DHL Express Global,1423.6,3,HIGH,0.14,MEDIUM,0
+DHL Express Global,1732.0,3,MEDIUM,0.02,MEDIUM,0
+UPS Supply Chain Solutions,2680.5,6,MEDIUM,0.19,MEDIUM,0
+DHL Express Global,3489.4,6,HIGH,0.42,HIGH,0
+Maersk Intermodal,1372.2,3,MEDIUM,0.75,HIGH,0
+DHL Express Global,1663.4,4,MEDIUM,0.21,URGENT,1
+DHL Express Global,2041.5,5,LOW,0.61,URGENT,1
+Maersk Intermodal,2587.6,6,MEDIUM,0.06,URGENT,0
+FedEx Freight,2460.5,5,LOW,0.37,URGENT,0
+DHL Express Global,1853.8,4,MEDIUM,0.76,HIGH,0
+DHL Express Global,1997.7,4,HIGH,0.21,MEDIUM,0
+UPS Supply Chain Solutions,3266.9,7,HIGH,0.39,HIGH,0
+Maersk Intermodal,3431.6,7,MEDIUM,0.93,URGENT,1
+UPS Supply Chain Solutions,1861.4,5,HIGH,0.71,LOW,0
+FedEx Freight,2792.4,5,LOW,0.0,URGENT,1
+FedEx Freight,647.2,3,LOW,0.73,LOW,1
+Maersk Intermodal,2920.0,6,HIGH,0.61,HIGH,0
+FedEx Freight,1965.7,4,MEDIUM,0.14,LOW,0
+FedEx Freight,1657.0,4,LOW,0.8,URGENT,0
+UPS Supply Chain Solutions,539.2,2,LOW,0.81,LOW,0
+UPS Supply Chain Solutions,413.6,1,MEDIUM,0.37,MEDIUM,1
+Maersk Intermodal,880.1,2,LOW,0.37,HIGH,0
+FedEx Freight,2847.4,6,LOW,0.56,HIGH,0
+FedEx Freight,2967.3,6,LOW,0.35,LOW,1
+Maersk Intermodal,1580.2,4,MEDIUM,0.23,LOW,0
+FedEx Freight,2728.2,6,LOW,0.73,LOW,1
+UPS Supply Chain Solutions,2234.9,5,HIGH,0.76,HIGH,0
+DHL Express Global,1034.8,3,MEDIUM,0.15,LOW,1
+FedEx Freight,2439.6,5,LOW,0.53,LOW,0
+FedEx Freight,3370.0,6,LOW,0.52,URGENT,1
+UPS Supply Chain Solutions,1424.7,4,MEDIUM,0.15,MEDIUM,1
+DHL Express Global,2926.8,5,LOW,0.19,LOW,0
+UPS Supply Chain Solutions,2889.1,5,MEDIUM,0.63,LOW,1
+FedEx Freight,1988.6,4,HIGH,0.5,LOW,1
+UPS Supply Chain Solutions,3410.6,7,LOW,0.3,URGENT,1
+UPS Supply Chain Solutions,1008.6,2,LOW,0.48,LOW,0
+DHL Express Global,2642.7,6,LOW,0.01,LOW,0
+DHL Express Global,3053.3,6,MEDIUM,0.71,LOW,1
+DHL Express Global,2650.1,6,LOW,0.76,LOW,0
+DHL Express Global,3230.3,7,HIGH,0.6,HIGH,1
+UPS Supply Chain Solutions,881.0,3,MEDIUM,0.6,LOW,1
+DHL Express Global,712.9,3,LOW,0.95,URGENT,0
+DHL Express Global,2827.9,6,MEDIUM,0.49,MEDIUM,1
+UPS Supply Chain Solutions,750.0,3,MEDIUM,0.51,LOW,0
+DHL Express Global,672.6,2,LOW,0.12,HIGH,0
+FedEx Freight,2073.4,5,LOW,0.57,MEDIUM,0
+UPS Supply Chain Solutions,434.5,2,MEDIUM,0.87,HIGH,1
+FedEx Freight,3293.6,6,MEDIUM,0.68,HIGH,1
+FedEx Freight,2026.4,5,MEDIUM,0.79,URGENT,1
+DHL Express Global,2780.6,6,MEDIUM,0.56,MEDIUM,0
+DHL Express Global,706.1,3,MEDIUM,0.09,LOW,1
+FedEx Freight,2937.3,6,HIGH,0.47,MEDIUM,1
+DHL Express Global,3765.9,8,HIGH,0.3,HIGH,0
+Maersk Intermodal,650.8,3,LOW,0.44,HIGH,0
+UPS Supply Chain Solutions,1037.0,2,MEDIUM,0.06,URGENT,1
+DHL Express Global,579.6,1,LOW,0.69,HIGH,1
+UPS Supply Chain Solutions,2159.9,4,LOW,0.22,HIGH,0
+Maersk Intermodal,2100.3,4,MEDIUM,0.79,URGENT,1
+DHL Express Global,861.3,2,MEDIUM,0.84,HIGH,1
+DHL Express Global,2579.6,6,LOW,0.25,HIGH,1
+FedEx Freight,510.8,2,MEDIUM,0.27,URGENT,0
+FedEx Freight,1436.9,4,MEDIUM,0.41,MEDIUM,0
+FedEx Freight,3117.5,6,HIGH,0.86,HIGH,1
+UPS Supply Chain Solutions,3013.0,7,HIGH,0.06,MEDIUM,1
+FedEx Freight,1982.6,4,MEDIUM,0.66,HIGH,0
+Maersk Intermodal,1488.2,3,HIGH,0.35,MEDIUM,1
+Maersk Intermodal,1525.2,4,MEDIUM,0.22,URGENT,1
+Maersk Intermodal,3305.6,6,LOW,0.41,MEDIUM,0
+FedEx Freight,1681.8,3,MEDIUM,0.35,MEDIUM,1
+UPS Supply Chain Solutions,823.3,3,LOW,0.72,MEDIUM,1
+FedEx Freight,1740.4,3,MEDIUM,0.74,URGENT,0
+Maersk Intermodal,2878.3,6,MEDIUM,0.25,MEDIUM,0
+UPS Supply Chain Solutions,1350.8,4,LOW,0.21,URGENT,1
+FedEx Freight,3345.2,6,HIGH,0.07,URGENT,0
+UPS Supply Chain Solutions,2387.3,4,MEDIUM,0.93,HIGH,1
+Maersk Intermodal,2274.3,4,HIGH,0.55,HIGH,1
+Maersk Intermodal,2206.8,5,MEDIUM,0.88,HIGH,0
+Maersk Intermodal,2094.4,4,HIGH,0.4,HIGH,0
+Maersk Intermodal,2126.4,4,HIGH,0.4,HIGH,0
+Maersk Intermodal,447.0,2,LOW,0.71,LOW,0
+DHL Express Global,1930.8,4,HIGH,0.02,HIGH,1
+Maersk Intermodal,1755.0,4,LOW,0.09,MEDIUM,0
+UPS Supply Chain Solutions,2154.7,5,MEDIUM,0.57,URGENT,1
+DHL Express Global,2793.4,6,MEDIUM,0.31,LOW,1
+Maersk Intermodal,889.3,2,LOW,0.13,LOW,0
+UPS Supply Chain Solutions,3758.7,8,MEDIUM,0.42,URGENT,1
+UPS Supply Chain Solutions,678.5,2,LOW,0.86,MEDIUM,1
+Maersk Intermodal,618.8,2,LOW,0.3,MEDIUM,0
+UPS Supply Chain Solutions,1550.8,4,MEDIUM,0.05,MEDIUM,0
+FedEx Freight,1728.8,3,MEDIUM,0.22,HIGH,0
+DHL Express Global,1846.5,5,MEDIUM,0.72,URGENT,1
+Maersk Intermodal,2260.0,5,MEDIUM,0.69,HIGH,0
+DHL Express Global,1947.1,4,MEDIUM,0.31,URGENT,0
+DHL Express Global,2859.7,5,HIGH,0.07,URGENT,0
+DHL Express Global,3692.6,7,LOW,0.79,HIGH,1
+FedEx Freight,2595.2,6,MEDIUM,0.86,HIGH,1
+DHL Express Global,903.5,3,HIGH,0.53,URGENT,0
+UPS Supply Chain Solutions,2911.3,5,MEDIUM,0.65,HIGH,1
+FedEx Freight,2545.6,5,MEDIUM,0.45,MEDIUM,1
+FedEx Freight,1308.5,3,HIGH,0.94,HIGH,1
+FedEx Freight,1195.9,3,MEDIUM,0.99,MEDIUM,1
+UPS Supply Chain Solutions,1056.7,3,LOW,0.62,LOW,0
+UPS Supply Chain Solutions,349.8,1,HIGH,0.02,URGENT,0
+Maersk Intermodal,1754.8,4,MEDIUM,0.18,HIGH,1
+DHL Express Global,3657.0,8,LOW,0.32,URGENT,1
+FedEx Freight,1451.8,4,MEDIUM,0.23,HIGH,0
+UPS Supply Chain Solutions,1759.0,3,MEDIUM,0.94,MEDIUM,1
+FedEx Freight,2240.8,4,LOW,0.27,LOW,1
+Maersk Intermodal,998.0,3,MEDIUM,0.58,URGENT,1
+Maersk Intermodal,617.3,3,HIGH,0.69,MEDIUM,1
+UPS Supply Chain Solutions,1530.7,4,MEDIUM,0.13,MEDIUM,0
+DHL Express Global,1444.8,4,LOW,0.51,URGENT,0
+FedEx Freight,2964.9,6,HIGH,0.92,HIGH,1
+DHL Express Global,386.8,2,HIGH,0.18,MEDIUM,0
+DHL Express Global,3222.0,6,LOW,0.43,LOW,0
+FedEx Freight,1844.5,4,MEDIUM,0.1,HIGH,0
+UPS Supply Chain Solutions,1249.0,4,MEDIUM,0.94,LOW,1
+UPS Supply Chain Solutions,3085.9,6,MEDIUM,0.83,LOW,1
+Maersk Intermodal,1914.9,5,HIGH,0.46,HIGH,1
+FedEx Freight,3359.9,7,LOW,0.67,LOW,0
+Maersk Intermodal,3669.6,7,MEDIUM,0.85,LOW,0
+DHL Express Global,3439.6,7,LOW,0.9,LOW,1
+UPS Supply Chain Solutions,3202.2,7,LOW,0.27,LOW,0
+Maersk Intermodal,1834.2,4,MEDIUM,0.21,LOW,1
+FedEx Freight,3385.4,6,LOW,0.09,URGENT,0
+Maersk Intermodal,785.7,2,MEDIUM,0.04,URGENT,0
+FedEx Freight,542.0,2,LOW,0.97,MEDIUM,0
+UPS Supply Chain Solutions,999.0,2,MEDIUM,0.05,URGENT,0
+FedEx Freight,3466.3,7,MEDIUM,0.73,HIGH,1
+Maersk Intermodal,1903.2,4,LOW,0.41,MEDIUM,0
+UPS Supply Chain Solutions,436.1,2,LOW,0.02,URGENT,0
+DHL Express Global,798.0,2,MEDIUM,0.8,URGENT,1
+UPS Supply Chain Solutions,505.0,1,HIGH,0.78,LOW,1
+Maersk Intermodal,1546.6,3,MEDIUM,0.86,HIGH,1
+DHL Express Global,366.8,2,LOW,0.44,HIGH,0
+FedEx Freight,396.7,1,LOW,0.69,URGENT,0
+DHL Express Global,2060.1,5,LOW,0.18,HIGH,0
+UPS Supply Chain Solutions,1694.9,4,MEDIUM,0.72,HIGH,1
+DHL Express Global,704.0,3,LOW,0.18,MEDIUM,0
+FedEx Freight,315.3,2,MEDIUM,0.65,URGENT,1
+Maersk Intermodal,3037.1,6,MEDIUM,0.59,HIGH,1
+UPS Supply Chain Solutions,2954.6,6,MEDIUM,0.94,MEDIUM,1
+UPS Supply Chain Solutions,1188.6,2,HIGH,0.93,MEDIUM,1
+DHL Express Global,1815.8,5,LOW,0.19,HIGH,0
+UPS Supply Chain Solutions,3339.6,7,MEDIUM,0.76,MEDIUM,1
+FedEx Freight,1288.1,4,LOW,0.6,MEDIUM,0
+Maersk Intermodal,1546.9,3,LOW,0.65,LOW,1
+Maersk Intermodal,1188.6,2,MEDIUM,0.27,LOW,0
+DHL Express Global,3696.9,8,HIGH,0.42,URGENT,0
+FedEx Freight,971.6,3,HIGH,0.85,MEDIUM,1
+UPS Supply Chain Solutions,648.2,3,LOW,0.42,URGENT,0
+DHL Express Global,1615.0,4,LOW,0.27,LOW,0
+FedEx Freight,1861.9,5,HIGH,0.37,LOW,1
+Maersk Intermodal,327.2,1,MEDIUM,0.33,LOW,0
+FedEx Freight,3670.3,7,MEDIUM,0.5,MEDIUM,1
+FedEx Freight,3050.3,6,LOW,0.3,HIGH,0
+FedEx Freight,2239.7,4,HIGH,0.41,HIGH,1
+FedEx Freight,910.0,3,LOW,0.52,URGENT,0
+UPS Supply Chain Solutions,1575.0,4,LOW,0.91,HIGH,1
+Maersk Intermodal,584.2,1,MEDIUM,0.28,HIGH,1
+Maersk Intermodal,1218.6,4,LOW,0.86,MEDIUM,0
+UPS Supply Chain Solutions,3795.0,7,MEDIUM,0.22,URGENT,0
+Maersk Intermodal,3042.4,6,HIGH,0.6,URGENT,1
+DHL Express Global,2318.7,4,HIGH,0.68,HIGH,1
+DHL Express Global,3601.3,8,HIGH,0.29,MEDIUM,0
+Maersk Intermodal,2211.1,5,HIGH,0.49,MEDIUM,1
+UPS Supply Chain Solutions,2739.5,5,HIGH,0.68,URGENT,0
+FedEx Freight,3241.9,7,HIGH,0.49,HIGH,1
+Maersk Intermodal,312.4,2,HIGH,0.38,URGENT,1
+Maersk Intermodal,1614.8,4,MEDIUM,0.94,MEDIUM,1
+DHL Express Global,2075.3,4,LOW,0.57,MEDIUM,1
+Maersk Intermodal,3234.2,6,HIGH,0.2,MEDIUM,1
+UPS Supply Chain Solutions,3040.8,6,MEDIUM,0.85,URGENT,1
+Maersk Intermodal,2379.4,5,LOW,0.45,HIGH,0
+Maersk Intermodal,1917.9,5,MEDIUM,0.51,HIGH,1
+FedEx Freight,3636.1,8,MEDIUM,0.84,URGENT,0
+Maersk Intermodal,2136.0,4,HIGH,0.82,URGENT,1
+DHL Express Global,1749.2,3,LOW,0.08,MEDIUM,0
+DHL Express Global,1503.0,3,MEDIUM,0.1,LOW,0
+Maersk Intermodal,1852.8,5,MEDIUM,0.04,MEDIUM,1
+DHL Express Global,3617.8,8,MEDIUM,0.81,URGENT,1
+FedEx Freight,3430.9,6,MEDIUM,0.51,HIGH,1
+Maersk Intermodal,3320.7,6,MEDIUM,0.47,LOW,1
+Maersk Intermodal,1330.1,4,MEDIUM,0.27,MEDIUM,1
+Maersk Intermodal,1201.8,3,MEDIUM,0.84,HIGH,1
+Maersk Intermodal,1621.4,3,MEDIUM,0.94,HIGH,1
+DHL Express Global,3234.4,7,LOW,0.21,LOW,0
+FedEx Freight,3050.2,7,LOW,0.4,URGENT,1
+UPS Supply Chain Solutions,3167.0,6,LOW,0.05,HIGH,0
+FedEx Freight,2962.0,6,MEDIUM,0.45,URGENT,0
+FedEx Freight,571.6,2,HIGH,0.32,LOW,0
+DHL Express Global,2482.7,5,HIGH,0.12,URGENT,0
+UPS Supply Chain Solutions,3399.3,7,LOW,0.1,HIGH,0
+DHL Express Global,357.9,1,LOW,0.38,LOW,1
+FedEx Freight,2967.4,5,MEDIUM,0.95,MEDIUM,1
+DHL Express Global,1345.8,4,MEDIUM,0.89,MEDIUM,0
+DHL Express Global,452.6,2,MEDIUM,0.83,HIGH,1
+FedEx Freight,1478.5,3,MEDIUM,0.99,URGENT,1
+FedEx Freight,903.1,2,MEDIUM,0.53,LOW,1
+FedEx Freight,1128.8,2,MEDIUM,0.28,HIGH,0
+FedEx Freight,2946.3,5,LOW,0.65,LOW,1
+DHL Express Global,3002.5,7,HIGH,0.04,LOW,1
+UPS Supply Chain Solutions,928.9,2,LOW,0.13,LOW,0
+FedEx Freight,1509.5,3,LOW,0.38,URGENT,0
+Maersk Intermodal,1195.6,3,HIGH,0.12,MEDIUM,0
+Maersk Intermodal,1021.5,2,MEDIUM,0.13,LOW,1
+UPS Supply Chain Solutions,875.0,3,HIGH,0.49,MEDIUM,1
+DHL Express Global,1736.7,3,HIGH,0.56,LOW,1
+FedEx Freight,2038.4,4,LOW,0.48,LOW,0
+DHL Express Global,2482.0,5,HIGH,0.93,HIGH,1
+Maersk Intermodal,2370.8,5,HIGH,0.81,LOW,1
+Maersk Intermodal,449.7,2,HIGH,0.72,URGENT,0
+UPS Supply Chain Solutions,2940.7,5,MEDIUM,0.51,MEDIUM,1
+Maersk Intermodal,3484.0,6,MEDIUM,0.07,HIGH,0
+Maersk Intermodal,2538.0,5,MEDIUM,0.26,URGENT,0
+UPS Supply Chain Solutions,377.6,1,MEDIUM,0.96,MEDIUM,1
+UPS Supply Chain Solutions,3341.4,7,LOW,0.55,MEDIUM,1
+Maersk Intermodal,1336.3,3,HIGH,0.7,URGENT,1
+UPS Supply Chain Solutions,2862.3,6,MEDIUM,0.43,URGENT,1
+DHL Express Global,319.8,2,MEDIUM,0.59,LOW,0
+Maersk Intermodal,537.7,2,LOW,0.4,LOW,1
+UPS Supply Chain Solutions,1607.1,4,HIGH,0.58,LOW,0
+DHL Express Global,2804.1,5,LOW,0.97,HIGH,0
+UPS Supply Chain Solutions,865.9,3,HIGH,0.22,LOW,1
+UPS Supply Chain Solutions,2296.6,4,HIGH,0.66,URGENT,0
+Maersk Intermodal,3162.7,6,LOW,0.24,MEDIUM,1
+Maersk Intermodal,996.6,3,HIGH,0.77,MEDIUM,0
+FedEx Freight,650.2,2,MEDIUM,0.84,LOW,1
+UPS Supply Chain Solutions,2455.8,5,HIGH,0.67,URGENT,1
+Maersk Intermodal,3460.5,6,HIGH,0.92,URGENT,1
+UPS Supply Chain Solutions,2161.6,4,MEDIUM,0.56,LOW,1
+FedEx Freight,1548.8,4,LOW,0.63,LOW,1
+FedEx Freight,1978.2,4,MEDIUM,0.13,URGENT,0
+DHL Express Global,2500.6,6,MEDIUM,0.45,LOW,1
+UPS Supply Chain Solutions,416.4,1,HIGH,0.8,HIGH,1
+FedEx Freight,3297.0,7,MEDIUM,0.01,URGENT,1
+Maersk Intermodal,3273.8,6,LOW,0.3,MEDIUM,0
+Maersk Intermodal,2661.4,5,MEDIUM,0.06,LOW,1
+UPS Supply Chain Solutions,1911.8,5,HIGH,0.69,MEDIUM,1
+Maersk Intermodal,3712.1,7,LOW,0.4,HIGH,0
+UPS Supply Chain Solutions,2856.7,5,MEDIUM,0.01,URGENT,0
+Maersk Intermodal,1011.0,3,MEDIUM,0.13,HIGH,0
+UPS Supply Chain Solutions,2284.8,4,HIGH,0.82,HIGH,1
+FedEx Freight,3728.0,8,MEDIUM,0.45,MEDIUM,1
+UPS Supply Chain Solutions,2377.6,5,MEDIUM,0.57,URGENT,0
+DHL Express Global,1658.2,4,MEDIUM,0.52,LOW,1
+FedEx Freight,3505.6,7,LOW,0.24,LOW,0
+UPS Supply Chain Solutions,3191.9,7,LOW,0.33,URGENT,0
+FedEx Freight,2693.6,5,LOW,0.69,MEDIUM,0
+FedEx Freight,2674.6,6,MEDIUM,0.36,URGENT,0
+DHL Express Global,780.3,2,LOW,0.55,URGENT,0
+UPS Supply Chain Solutions,650.1,2,MEDIUM,0.25,MEDIUM,1
+Maersk Intermodal,1605.0,3,LOW,0.86,MEDIUM,1
+UPS Supply Chain Solutions,1937.5,4,MEDIUM,0.15,HIGH,0
+UPS Supply Chain Solutions,1705.3,3,MEDIUM,0.28,LOW,0
+UPS Supply Chain Solutions,3613.8,7,MEDIUM,0.84,MEDIUM,1
+UPS Supply Chain Solutions,409.0,2,HIGH,0.31,MEDIUM,1
+UPS Supply Chain Solutions,2590.1,5,MEDIUM,0.72,MEDIUM,1
+DHL Express Global,745.7,3,HIGH,0.45,HIGH,1
+DHL Express Global,1452.0,3,LOW,0.87,LOW,0
+UPS Supply Chain Solutions,1224.9,3,LOW,0.07,URGENT,0
+UPS Supply Chain Solutions,3292.2,6,LOW,0.51,MEDIUM,0
+UPS Supply Chain Solutions,1618.6,4,LOW,0.5,MEDIUM,1
+UPS Supply Chain Solutions,2203.6,4,LOW,0.29,URGENT,0
+UPS Supply Chain Solutions,1030.9,2,MEDIUM,0.36,URGENT,0
+FedEx Freight,2842.5,6,MEDIUM,0.99,HIGH,0
+DHL Express Global,678.7,3,LOW,0.65,MEDIUM,0
+FedEx Freight,2084.6,4,MEDIUM,0.23,HIGH,0
+FedEx Freight,1043.5,2,MEDIUM,0.65,HIGH,1
+Maersk Intermodal,1459.9,4,MEDIUM,0.64,MEDIUM,1
+Maersk Intermodal,1762.7,3,HIGH,0.4,URGENT,0
+FedEx Freight,2217.5,4,MEDIUM,0.03,LOW,0
+Maersk Intermodal,1513.2,4,LOW,0.29,HIGH,1
+DHL Express Global,2442.5,6,MEDIUM,0.63,HIGH,1
+Maersk Intermodal,2891.8,5,LOW,0.18,MEDIUM,0
+FedEx Freight,2607.9,5,LOW,0.03,MEDIUM,0
+Maersk Intermodal,2704.3,6,MEDIUM,0.3,LOW,0
+UPS Supply Chain Solutions,688.7,2,HIGH,0.71,MEDIUM,0
+DHL Express Global,1509.0,4,HIGH,0.79,HIGH,0
+Maersk Intermodal,1888.5,5,LOW,0.33,MEDIUM,0
+FedEx Freight,2327.4,4,MEDIUM,0.46,MEDIUM,0
+DHL Express Global,1259.6,4,HIGH,0.84,HIGH,0
+FedEx Freight,3115.9,7,HIGH,0.6,MEDIUM,1
+FedEx Freight,913.1,2,MEDIUM,0.16,URGENT,1
+DHL Express Global,2878.5,6,MEDIUM,0.49,HIGH,1
+FedEx Freight,2386.5,4,LOW,0.52,HIGH,1
+FedEx Freight,2343.1,5,MEDIUM,0.55,URGENT,0
+UPS Supply Chain Solutions,2449.1,6,LOW,0.45,MEDIUM,1
+FedEx Freight,563.1,1,LOW,0.99,MEDIUM,1
+UPS Supply Chain Solutions,433.0,1,MEDIUM,0.81,HIGH,1
+FedEx Freight,2114.9,4,MEDIUM,0.07,HIGH,0
+Maersk Intermodal,2449.2,6,LOW,0.91,LOW,1
+DHL Express Global,486.7,1,LOW,0.45,URGENT,0
+DHL Express Global,1324.9,4,HIGH,0.5,LOW,1
+UPS Supply Chain Solutions,3714.0,7,LOW,0.9,MEDIUM,0
+Maersk Intermodal,1114.1,2,LOW,0.62,HIGH,0
+DHL Express Global,2021.0,5,MEDIUM,0.68,LOW,0
+FedEx Freight,563.5,1,MEDIUM,0.1,URGENT,0
+Maersk Intermodal,1929.7,5,LOW,0.55,MEDIUM,1
+DHL Express Global,3720.2,8,LOW,0.07,HIGH,0
+FedEx Freight,2467.0,5,LOW,0.99,MEDIUM,0
+UPS Supply Chain Solutions,3294.6,6,LOW,0.88,URGENT,1
+Maersk Intermodal,2458.5,5,HIGH,0.67,LOW,1
+DHL Express Global,2172.8,5,MEDIUM,0.32,MEDIUM,0
+Maersk Intermodal,1348.1,3,HIGH,0.41,MEDIUM,1
+UPS Supply Chain Solutions,3018.9,7,LOW,0.17,HIGH,0
+UPS Supply Chain Solutions,2294.4,5,LOW,0.93,URGENT,1
+FedEx Freight,1667.6,3,HIGH,0.62,URGENT,1
+Maersk Intermodal,1055.9,2,LOW,0.42,HIGH,1
+UPS Supply Chain Solutions,2974.0,5,LOW,0.38,LOW,0
+FedEx Freight,2486.6,6,MEDIUM,0.26,MEDIUM,0
+Maersk Intermodal,2397.1,4,HIGH,0.21,HIGH,1
+Maersk Intermodal,1311.5,4,HIGH,0.27,URGENT,1
+UPS Supply Chain Solutions,903.4,2,LOW,0.82,HIGH,1
+FedEx Freight,1612.7,4,LOW,0.42,LOW,0
+Maersk Intermodal,3695.2,7,HIGH,0.89,MEDIUM,1
+UPS Supply Chain Solutions,538.8,2,MEDIUM,0.11,MEDIUM,0
+DHL Express Global,2445.4,6,LOW,0.09,LOW,0
+UPS Supply Chain Solutions,3207.9,7,MEDIUM,0.79,HIGH,0
+UPS Supply Chain Solutions,1432.5,3,HIGH,0.86,MEDIUM,0
+UPS Supply Chain Solutions,720.3,2,LOW,0.19,HIGH,0
+Maersk Intermodal,1184.4,3,HIGH,0.5,MEDIUM,0
+UPS Supply Chain Solutions,3065.8,7,MEDIUM,0.77,LOW,1
+UPS Supply Chain Solutions,475.7,2,MEDIUM,0.15,LOW,0
+DHL Express Global,2977.5,5,LOW,0.4,LOW,0
+UPS Supply Chain Solutions,3491.1,6,HIGH,0.86,MEDIUM,1
+UPS Supply Chain Solutions,351.5,2,MEDIUM,0.5,MEDIUM,0
+UPS Supply Chain Solutions,1019.7,2,HIGH,0.88,URGENT,1
+FedEx Freight,3662.6,7,MEDIUM,0.87,HIGH,1
+UPS Supply Chain Solutions,2400.4,5,LOW,0.26,URGENT,0
+Maersk Intermodal,2531.7,5,LOW,1.0,URGENT,1
+FedEx Freight,1060.4,2,LOW,0.12,HIGH,0
+UPS Supply Chain Solutions,1673.4,4,LOW,0.1,HIGH,0
+DHL Express Global,3033.4,6,MEDIUM,0.7,LOW,1
+DHL Express Global,1227.8,4,HIGH,0.46,LOW,1
+FedEx Freight,2560.7,6,LOW,0.06,LOW,0
+Maersk Intermodal,1414.0,3,MEDIUM,0.33,MEDIUM,1
+DHL Express Global,3215.0,7,MEDIUM,0.15,HIGH,1
+FedEx Freight,2318.4,4,HIGH,0.69,MEDIUM,1
+UPS Supply Chain Solutions,3036.0,7,MEDIUM,0.79,HIGH,1
+FedEx Freight,600.4,3,MEDIUM,0.29,HIGH,0
+Maersk Intermodal,3765.4,8,MEDIUM,0.43,MEDIUM,1
+Maersk Intermodal,1443.5,4,MEDIUM,0.71,HIGH,1
+Maersk Intermodal,1456.1,3,MEDIUM,0.4,HIGH,1
+UPS Supply Chain Solutions,1892.2,4,HIGH,0.85,URGENT,1
+UPS Supply Chain Solutions,2885.9,6,MEDIUM,0.51,MEDIUM,1
+DHL Express Global,1432.0,4,LOW,0.34,MEDIUM,0
+UPS Supply Chain Solutions,3772.6,8,MEDIUM,0.82,HIGH,0
+Maersk Intermodal,1388.5,4,LOW,0.65,MEDIUM,0
+FedEx Freight,2628.9,5,LOW,0.08,MEDIUM,0
+FedEx Freight,1246.5,3,MEDIUM,0.79,MEDIUM,0
+UPS Supply Chain Solutions,3752.2,7,MEDIUM,0.89,LOW,0
+Maersk Intermodal,3436.8,7,LOW,0.59,HIGH,0
+DHL Express Global,2456.3,5,LOW,0.95,LOW,1
+UPS Supply Chain Solutions,1712.9,4,MEDIUM,0.66,HIGH,0
+UPS Supply Chain Solutions,612.4,2,MEDIUM,0.62,URGENT,1
+FedEx Freight,1753.0,3,MEDIUM,0.68,URGENT,1
+Maersk Intermodal,2002.5,4,MEDIUM,0.11,URGENT,0
+FedEx Freight,2522.5,5,MEDIUM,0.88,MEDIUM,0
+FedEx Freight,1170.5,2,MEDIUM,0.78,MEDIUM,0
+FedEx Freight,1298.1,3,MEDIUM,0.13,LOW,0
+UPS Supply Chain Solutions,684.0,2,MEDIUM,0.16,HIGH,1
+Maersk Intermodal,2301.5,5,LOW,0.8,LOW,1
+UPS Supply Chain Solutions,3178.5,6,LOW,0.63,MEDIUM,0
+UPS Supply Chain Solutions,2634.4,5,HIGH,0.64,LOW,1
+FedEx Freight,563.6,1,LOW,0.47,URGENT,0
+UPS Supply Chain Solutions,2573.3,5,MEDIUM,0.47,URGENT,1
+DHL Express Global,1879.1,4,MEDIUM,0.94,MEDIUM,0
+Maersk Intermodal,909.6,3,LOW,0.28,MEDIUM,0
+UPS Supply Chain Solutions,586.0,2,MEDIUM,0.87,URGENT,0
+FedEx Freight,2277.9,5,LOW,0.31,MEDIUM,1
+FedEx Freight,3501.3,6,LOW,0.29,MEDIUM,1
+DHL Express Global,1274.7,3,MEDIUM,0.22,HIGH,0
+UPS Supply Chain Solutions,1741.6,3,MEDIUM,0.98,URGENT,0
+DHL Express Global,482.1,1,MEDIUM,0.17,MEDIUM,1
+UPS Supply Chain Solutions,3509.7,7,LOW,0.05,LOW,0
+Maersk Intermodal,3274.5,7,MEDIUM,0.01,MEDIUM,1
+FedEx Freight,1231.8,4,HIGH,0.44,HIGH,1
+UPS Supply Chain Solutions,676.2,2,MEDIUM,0.32,LOW,1
+FedEx Freight,630.0,3,MEDIUM,0.86,MEDIUM,0
+FedEx Freight,827.3,3,MEDIUM,0.25,LOW,1
+Maersk Intermodal,1691.1,3,LOW,0.37,MEDIUM,0
+FedEx Freight,2930.7,5,MEDIUM,0.59,URGENT,0
+UPS Supply Chain Solutions,3148.9,7,LOW,0.25,LOW,0
+FedEx Freight,1294.5,3,MEDIUM,0.26,URGENT,1
+FedEx Freight,793.1,3,MEDIUM,0.48,HIGH,0
+FedEx Freight,1723.5,3,LOW,0.66,HIGH,1
+FedEx Freight,694.4,2,LOW,0.53,URGENT,1
+DHL Express Global,2445.5,5,HIGH,0.91,LOW,1
+DHL Express Global,3140.1,7,LOW,0.33,URGENT,1
+Maersk Intermodal,2258.7,4,LOW,0.26,URGENT,0
+Maersk Intermodal,2360.3,4,LOW,0.01,HIGH,0
+DHL Express Global,2969.9,5,HIGH,0.25,URGENT,1
+Maersk Intermodal,914.7,2,LOW,0.81,LOW,1
+Maersk Intermodal,2843.9,6,HIGH,0.37,MEDIUM,1
+FedEx Freight,1438.9,3,MEDIUM,0.3,LOW,0
+UPS Supply Chain Solutions,1268.2,3,MEDIUM,0.94,LOW,1
+Maersk Intermodal,2812.0,5,MEDIUM,0.82,MEDIUM,1
+FedEx Freight,994.4,3,HIGH,0.76,LOW,1
+FedEx Freight,3440.5,7,LOW,0.02,LOW,0
+Maersk Intermodal,2732.6,5,MEDIUM,0.36,MEDIUM,0
+FedEx Freight,3070.5,6,MEDIUM,0.19,MEDIUM,0
+Maersk Intermodal,1636.0,4,MEDIUM,0.56,URGENT,1
+FedEx Freight,484.9,2,LOW,0.59,LOW,1
+FedEx Freight,1955.2,4,LOW,0.59,HIGH,1
+DHL Express Global,308.8,2,LOW,0.98,URGENT,1
+Maersk Intermodal,1749.4,4,MEDIUM,0.14,URGENT,0
+Maersk Intermodal,984.9,3,LOW,0.79,URGENT,1
+Maersk Intermodal,3613.7,7,MEDIUM,0.42,URGENT,1
+UPS Supply Chain Solutions,3516.0,7,HIGH,0.46,MEDIUM,0
+Maersk Intermodal,3421.5,7,LOW,0.45,LOW,0
+Maersk Intermodal,3394.2,7,MEDIUM,0.49,HIGH,1
+UPS Supply Chain Solutions,743.3,2,LOW,0.21,HIGH,0
+FedEx Freight,1938.2,4,HIGH,0.93,LOW,1
+Maersk Intermodal,789.0,3,MEDIUM,0.34,HIGH,0
+Maersk Intermodal,2628.2,6,LOW,0.56,LOW,1
+UPS Supply Chain Solutions,2144.4,4,MEDIUM,0.67,HIGH,1
+UPS Supply Chain Solutions,2943.0,6,HIGH,0.79,LOW,1
+FedEx Freight,1239.1,3,LOW,0.95,HIGH,1
+DHL Express Global,2111.8,4,MEDIUM,0.49,HIGH,1
+FedEx Freight,3351.6,6,HIGH,0.01,LOW,1
+FedEx Freight,436.4,2,HIGH,0.28,LOW,0
+DHL Express Global,2337.0,5,HIGH,0.55,URGENT,1
+UPS Supply Chain Solutions,707.9,3,LOW,0.84,HIGH,0
+FedEx Freight,3596.9,6,HIGH,0.21,MEDIUM,0
+FedEx Freight,1800.0,4,MEDIUM,0.01,HIGH,0
+UPS Supply Chain Solutions,2277.5,5,HIGH,0.53,MEDIUM,1
+UPS Supply Chain Solutions,2812.0,5,MEDIUM,0.06,URGENT,1
+UPS Supply Chain Solutions,2769.0,6,LOW,0.76,HIGH,1
+Maersk Intermodal,2147.7,5,MEDIUM,0.19,LOW,0
+FedEx Freight,715.9,3,LOW,0.42,MEDIUM,1
+DHL Express Global,3426.0,7,MEDIUM,0.45,LOW,1
+UPS Supply Chain Solutions,932.2,3,LOW,0.24,MEDIUM,0
+FedEx Freight,2485.2,5,HIGH,0.11,LOW,0
+UPS Supply Chain Solutions,2515.3,6,MEDIUM,0.06,LOW,1
+DHL Express Global,2847.5,6,LOW,0.07,HIGH,0
+DHL Express Global,568.4,1,HIGH,0.01,HIGH,1
+Maersk Intermodal,3480.4,6,HIGH,0.11,LOW,1
+FedEx Freight,843.6,3,HIGH,0.37,URGENT,0
+UPS Supply Chain Solutions,360.1,2,HIGH,0.19,MEDIUM,0
+UPS Supply Chain Solutions,3168.3,6,LOW,0.18,HIGH,1
+Maersk Intermodal,2888.0,5,LOW,0.32,MEDIUM,0
+UPS Supply Chain Solutions,1266.5,4,HIGH,0.58,MEDIUM,0
+Maersk Intermodal,2663.7,6,LOW,0.43,MEDIUM,1
+FedEx Freight,693.9,2,LOW,0.36,MEDIUM,0
+DHL Express Global,448.3,1,MEDIUM,0.37,MEDIUM,0
+DHL Express Global,2215.4,4,MEDIUM,0.95,URGENT,1
+UPS Supply Chain Solutions,2556.5,5,HIGH,0.15,URGENT,1
+FedEx Freight,3530.8,7,HIGH,0.58,MEDIUM,1
+UPS Supply Chain Solutions,1261.0,3,LOW,0.58,MEDIUM,0
+Maersk Intermodal,839.0,3,HIGH,0.36,MEDIUM,0
+FedEx Freight,2261.7,5,MEDIUM,0.27,URGENT,0
+UPS Supply Chain Solutions,3605.5,8,HIGH,0.63,MEDIUM,1
+Maersk Intermodal,3237.8,7,MEDIUM,0.19,MEDIUM,0
+Maersk Intermodal,1339.2,3,LOW,0.34,LOW,0
+FedEx Freight,1704.6,4,LOW,0.98,HIGH,1
+DHL Express Global,748.1,3,LOW,0.05,URGENT,1
+DHL Express Global,1016.9,3,HIGH,0.77,LOW,0
+FedEx Freight,3224.6,7,HIGH,0.97,LOW,1
+FedEx Freight,2139.7,4,LOW,0.48,MEDIUM,0
+DHL Express Global,987.5,3,HIGH,0.21,HIGH,1
+Maersk Intermodal,532.5,1,MEDIUM,0.36,URGENT,1
+FedEx Freight,1679.9,4,LOW,0.67,MEDIUM,0
+FedEx Freight,1741.9,3,MEDIUM,0.68,HIGH,1
+UPS Supply Chain Solutions,1125.4,3,HIGH,0.28,HIGH,0
+Maersk Intermodal,693.0,3,MEDIUM,0.16,URGENT,0
+DHL Express Global,3536.0,6,LOW,0.0,HIGH,1
+FedEx Freight,518.1,2,MEDIUM,0.26,HIGH,1
+UPS Supply Chain Solutions,1346.9,4,MEDIUM,0.1,LOW,0
+Maersk Intermodal,1684.8,3,LOW,0.59,MEDIUM,0
+Maersk Intermodal,3216.9,6,HIGH,0.22,URGENT,1
+Maersk Intermodal,1767.2,3,HIGH,0.19,MEDIUM,1
+DHL Express Global,3337.9,6,MEDIUM,0.85,MEDIUM,1
+UPS Supply Chain Solutions,3642.2,7,MEDIUM,0.31,MEDIUM,1
+UPS Supply Chain Solutions,3175.4,6,HIGH,1.0,MEDIUM,1
+Maersk Intermodal,950.7,2,MEDIUM,0.1,HIGH,0
+FedEx Freight,1111.0,2,MEDIUM,0.84,HIGH,0
+UPS Supply Chain Solutions,2663.0,5,HIGH,0.63,MEDIUM,1
+FedEx Freight,1034.2,2,MEDIUM,0.84,LOW,0
+DHL Express Global,3736.7,8,HIGH,0.01,URGENT,1
+UPS Supply Chain Solutions,2296.3,5,LOW,0.27,MEDIUM,0
+FedEx Freight,3196.1,6,LOW,0.43,URGENT,1
+DHL Express Global,1644.4,4,HIGH,0.23,HIGH,1
+FedEx Freight,2757.1,6,LOW,0.44,LOW,1
+DHL Express Global,1254.2,3,MEDIUM,0.44,URGENT,0
+FedEx Freight,1040.1,3,HIGH,0.05,MEDIUM,1
+UPS Supply Chain Solutions,420.4,2,LOW,0.67,LOW,1
+FedEx Freight,3655.4,7,LOW,0.54,MEDIUM,0
+UPS Supply Chain Solutions,2546.6,6,LOW,0.6,MEDIUM,0
+Maersk Intermodal,2188.3,5,LOW,0.9,MEDIUM,0
+DHL Express Global,1614.3,4,LOW,0.56,MEDIUM,0
+DHL Express Global,1715.8,3,MEDIUM,0.44,HIGH,1
+UPS Supply Chain Solutions,2533.5,6,LOW,0.22,LOW,0
+UPS Supply Chain Solutions,1523.8,3,MEDIUM,0.65,MEDIUM,1
+DHL Express Global,1121.2,3,MEDIUM,0.54,MEDIUM,0
+FedEx Freight,2094.5,4,MEDIUM,0.75,LOW,0
+FedEx Freight,646.2,2,LOW,0.48,LOW,0
+UPS Supply Chain Solutions,2685.4,5,MEDIUM,0.93,MEDIUM,1
+Maersk Intermodal,2300.0,4,LOW,0.33,MEDIUM,0
+DHL Express Global,1389.4,4,LOW,0.18,LOW,0
+UPS Supply Chain Solutions,3031.5,6,MEDIUM,0.36,HIGH,1
+UPS Supply Chain Solutions,1379.5,4,HIGH,0.82,LOW,1
+UPS Supply Chain Solutions,991.9,3,MEDIUM,0.9,LOW,0
+DHL Express Global,2554.8,5,LOW,0.68,LOW,0
+UPS Supply Chain Solutions,2369.8,5,LOW,0.38,URGENT,0
+UPS Supply Chain Solutions,1414.0,3,MEDIUM,0.74,MEDIUM,0
+DHL Express Global,2359.7,5,LOW,0.02,MEDIUM,0
+FedEx Freight,2285.1,4,LOW,0.81,HIGH,0
+UPS Supply Chain Solutions,2154.6,5,MEDIUM,0.43,URGENT,1
+DHL Express Global,2425.7,6,MEDIUM,0.66,MEDIUM,1
+Maersk Intermodal,1715.8,4,HIGH,0.05,HIGH,0
+DHL Express Global,1983.7,4,MEDIUM,0.41,HIGH,0
+UPS Supply Chain Solutions,2704.1,5,LOW,0.34,HIGH,0
+FedEx Freight,944.5,2,HIGH,0.64,URGENT,1
+DHL Express Global,1019.5,2,MEDIUM,0.08,HIGH,0
+DHL Express Global,2941.4,5,LOW,0.73,HIGH,0
+Maersk Intermodal,1643.9,4,LOW,0.77,HIGH,0
+FedEx Freight,677.7,2,HIGH,0.28,LOW,1
+DHL Express Global,1658.1,4,MEDIUM,0.86,LOW,1
+FedEx Freight,2917.1,5,MEDIUM,0.01,URGENT,0
+DHL Express Global,3162.4,6,HIGH,0.19,URGENT,1
+UPS Supply Chain Solutions,3426.7,7,MEDIUM,0.07,MEDIUM,1
+UPS Supply Chain Solutions,2140.2,4,LOW,0.98,LOW,1
+Maersk Intermodal,2935.0,5,LOW,0.21,URGENT,0
+DHL Express Global,1351.3,4,LOW,0.6,URGENT,0
+FedEx Freight,1949.4,4,LOW,0.88,MEDIUM,1
+Maersk Intermodal,3077.0,6,LOW,0.62,MEDIUM,0
+DHL Express Global,3770.3,7,LOW,0.24,URGENT,0
+Maersk Intermodal,1854.6,5,LOW,0.45,LOW,1
+DHL Express Global,3547.1,7,HIGH,0.93,HIGH,1
+Maersk Intermodal,2069.8,4,LOW,0.12,LOW,0
+FedEx Freight,3087.2,7,LOW,0.2,URGENT,0
+DHL Express Global,865.6,2,LOW,0.55,MEDIUM,0
+DHL Express Global,1200.7,4,LOW,0.95,MEDIUM,1
+FedEx Freight,2648.3,5,HIGH,0.83,HIGH,1
+Maersk Intermodal,591.3,1,MEDIUM,0.13,HIGH,1
+Maersk Intermodal,954.6,2,MEDIUM,0.8,MEDIUM,1
+FedEx Freight,1941.6,5,LOW,0.92,LOW,1
+Maersk Intermodal,2810.5,6,MEDIUM,0.86,HIGH,1
+DHL Express Global,2183.9,5,MEDIUM,0.9,HIGH,1
+UPS Supply Chain Solutions,2393.9,4,LOW,0.51,URGENT,0
+FedEx Freight,2403.8,6,MEDIUM,0.81,LOW,1
+UPS Supply Chain Solutions,1185.6,3,HIGH,0.15,HIGH,0
+Maersk Intermodal,2143.6,4,MEDIUM,0.59,URGENT,1
+UPS Supply Chain Solutions,1701.5,4,LOW,0.13,MEDIUM,0
+FedEx Freight,1333.8,3,MEDIUM,0.91,URGENT,1
+Maersk Intermodal,3481.1,6,MEDIUM,0.92,HIGH,1
+UPS Supply Chain Solutions,1738.1,3,MEDIUM,0.36,MEDIUM,0
+FedEx Freight,2295.4,5,MEDIUM,0.49,HIGH,0
+DHL Express Global,1623.5,3,LOW,0.31,HIGH,0
+DHL Express Global,2911.7,6,LOW,0.49,URGENT,0
+UPS Supply Chain Solutions,1786.4,4,LOW,0.11,LOW,0
+UPS Supply Chain Solutions,2360.5,5,MEDIUM,0.41,MEDIUM,0
+UPS Supply Chain Solutions,3424.8,6,MEDIUM,0.56,MEDIUM,1
+UPS Supply Chain Solutions,3459.6,7,HIGH,0.75,MEDIUM,1
+DHL Express Global,2709.0,5,LOW,0.45,HIGH,0
+FedEx Freight,948.4,3,MEDIUM,0.64,MEDIUM,0
+UPS Supply Chain Solutions,1873.2,5,HIGH,0.28,URGENT,0
+UPS Supply Chain Solutions,2249.3,5,MEDIUM,0.2,HIGH,0
+Maersk Intermodal,1173.9,2,LOW,0.21,MEDIUM,0
+FedEx Freight,1190.5,2,HIGH,0.86,MEDIUM,0
+DHL Express Global,614.9,2,MEDIUM,0.62,MEDIUM,1
+DHL Express Global,495.8,1,LOW,0.94,URGENT,1
+Maersk Intermodal,2093.0,4,LOW,0.39,URGENT,0
+Maersk Intermodal,2003.0,4,MEDIUM,0.04,MEDIUM,0
+FedEx Freight,2510.2,5,MEDIUM,0.81,LOW,1
+Maersk Intermodal,2945.6,5,MEDIUM,0.74,HIGH,1
+UPS Supply Chain Solutions,685.1,2,HIGH,0.98,HIGH,1
+UPS Supply Chain Solutions,304.0,1,MEDIUM,0.12,LOW,1
+UPS Supply Chain Solutions,2249.1,4,HIGH,0.9,URGENT,1
+UPS Supply Chain Solutions,3317.1,6,LOW,0.95,MEDIUM,1
+DHL Express Global,3126.8,7,MEDIUM,0.1,LOW,1
+Maersk Intermodal,1175.7,2,MEDIUM,0.19,URGENT,1
+Maersk Intermodal,872.7,3,MEDIUM,0.79,HIGH,0
+DHL Express Global,3584.3,6,LOW,0.99,URGENT,0
+UPS Supply Chain Solutions,1045.2,3,MEDIUM,0.68,MEDIUM,1
+FedEx Freight,810.5,3,LOW,0.82,URGENT,0
+Maersk Intermodal,347.8,1,HIGH,0.14,LOW,0
+FedEx Freight,3313.0,7,MEDIUM,0.76,HIGH,1
+DHL Express Global,3149.7,7,LOW,0.24,HIGH,0
+DHL Express Global,675.7,3,MEDIUM,0.7,HIGH,1
+UPS Supply Chain Solutions,1543.0,4,MEDIUM,0.43,LOW,0
+DHL Express Global,3553.2,6,MEDIUM,0.25,URGENT,0
+DHL Express Global,2967.6,6,MEDIUM,0.2,URGENT,0
+FedEx Freight,3721.8,8,HIGH,0.01,MEDIUM,1
+UPS Supply Chain Solutions,3093.6,7,HIGH,0.3,URGENT,1
+FedEx Freight,1255.6,4,LOW,0.31,MEDIUM,0
+Maersk Intermodal,1189.9,3,LOW,0.18,MEDIUM,1
+FedEx Freight,1657.6,4,HIGH,0.4,URGENT,1
+FedEx Freight,2016.6,5,LOW,0.89,URGENT,1
+DHL Express Global,2109.3,4,HIGH,0.4,MEDIUM,1
+Maersk Intermodal,3210.4,6,LOW,0.03,URGENT,0
+DHL Express Global,1623.5,3,MEDIUM,0.13,MEDIUM,1
+UPS Supply Chain Solutions,2159.0,4,HIGH,0.79,HIGH,0
+DHL Express Global,2402.9,5,HIGH,0.07,HIGH,0
+UPS Supply Chain Solutions,1728.9,3,MEDIUM,0.91,MEDIUM,0
+Maersk Intermodal,1459.5,3,MEDIUM,0.26,URGENT,1
+DHL Express Global,3038.5,6,MEDIUM,0.65,HIGH,1
+DHL Express Global,1003.8,2,LOW,0.67,MEDIUM,0
+Maersk Intermodal,1931.7,5,MEDIUM,0.79,MEDIUM,0
+UPS Supply Chain Solutions,1896.2,4,LOW,0.68,MEDIUM,1
+FedEx Freight,1322.6,4,HIGH,0.76,HIGH,1
+UPS Supply Chain Solutions,1255.6,4,LOW,0.25,HIGH,0
+UPS Supply Chain Solutions,3233.5,7,MEDIUM,0.52,LOW,1
+UPS Supply Chain Solutions,467.7,1,HIGH,0.14,HIGH,1
+DHL Express Global,1957.4,4,MEDIUM,0.33,LOW,0
+UPS Supply Chain Solutions,1045.5,3,LOW,0.25,MEDIUM,0
+FedEx Freight,947.3,3,MEDIUM,0.06,HIGH,0
+FedEx Freight,2576.1,5,LOW,0.98,HIGH,0
+UPS Supply Chain Solutions,2676.7,5,LOW,0.92,LOW,1
+Maersk Intermodal,3620.8,7,LOW,0.24,MEDIUM,1
+Maersk Intermodal,1796.0,3,LOW,0.85,HIGH,0
+UPS Supply Chain Solutions,709.7,2,HIGH,0.71,LOW,0
+DHL Express Global,2563.1,6,MEDIUM,0.36,URGENT,0
+UPS Supply Chain Solutions,2345.8,5,MEDIUM,0.96,HIGH,1
+DHL Express Global,2121.4,5,HIGH,0.34,HIGH,0
+DHL Express Global,2576.9,6,MEDIUM,0.33,HIGH,0
+Maersk Intermodal,696.3,3,LOW,0.84,HIGH,0
+DHL Express Global,2689.0,5,LOW,0.12,LOW,0
+DHL Express Global,2376.4,4,LOW,0.07,HIGH,0
+DHL Express Global,2236.1,4,MEDIUM,0.75,MEDIUM,1
+Maersk Intermodal,2581.9,5,LOW,0.07,HIGH,0
+Maersk Intermodal,2836.1,6,HIGH,0.83,HIGH,1
+DHL Express Global,3003.8,7,LOW,0.57,HIGH,1
+UPS Supply Chain Solutions,1849.0,5,HIGH,0.28,LOW,0
+FedEx Freight,2349.3,4,MEDIUM,0.16,MEDIUM,1
+DHL Express Global,2013.1,4,HIGH,0.89,MEDIUM,1
+DHL Express Global,2989.3,6,HIGH,0.16,MEDIUM,1
+DHL Express Global,1812.4,5,MEDIUM,0.07,MEDIUM,1
+UPS Supply Chain Solutions,572.5,2,MEDIUM,0.67,HIGH,0
+DHL Express Global,1456.2,3,MEDIUM,0.22,LOW,0
+DHL Express Global,3178.9,6,LOW,0.84,MEDIUM,0
+DHL Express Global,1873.3,4,MEDIUM,0.88,URGENT,1
+Maersk Intermodal,3095.5,7,MEDIUM,0.28,HIGH,1
+DHL Express Global,300.8,1,MEDIUM,0.59,HIGH,1
+FedEx Freight,2270.4,5,MEDIUM,0.15,HIGH,1
+FedEx Freight,1175.7,3,MEDIUM,0.28,LOW,1
+DHL Express Global,3648.1,8,MEDIUM,0.32,URGENT,0
+Maersk Intermodal,2138.4,4,HIGH,0.69,URGENT,1
+DHL Express Global,2872.9,6,LOW,0.34,URGENT,1
+DHL Express Global,1312.8,4,HIGH,0.11,URGENT,0
+DHL Express Global,954.2,3,HIGH,0.04,LOW,1
+DHL Express Global,1935.5,5,LOW,0.66,URGENT,0
+Maersk Intermodal,1546.9,3,HIGH,0.26,LOW,1
+DHL Express Global,2028.7,5,LOW,0.41,MEDIUM,1
+FedEx Freight,2766.9,6,MEDIUM,0.15,MEDIUM,0
+UPS Supply Chain Solutions,3403.7,7,MEDIUM,0.54,HIGH,1
+FedEx Freight,2527.2,5,LOW,0.97,URGENT,1
+Maersk Intermodal,334.3,1,MEDIUM,0.17,URGENT,1
+DHL Express Global,3382.0,6,MEDIUM,0.67,LOW,1
+UPS Supply Chain Solutions,1654.2,3,LOW,0.5,HIGH,0
+DHL Express Global,3346.4,7,LOW,0.13,URGENT,1
+Maersk Intermodal,3022.2,6,HIGH,0.88,LOW,1
+DHL Express Global,570.5,1,HIGH,0.6,URGENT,0
+FedEx Freight,1903.1,4,MEDIUM,0.46,HIGH,0
+UPS Supply Chain Solutions,2495.6,5,LOW,0.5,URGENT,0
+Maersk Intermodal,614.0,3,LOW,0.76,MEDIUM,0
+UPS Supply Chain Solutions,1938.8,4,MEDIUM,0.98,HIGH,0
+UPS Supply Chain Solutions,1198.0,2,HIGH,0.93,LOW,1
+FedEx Freight,3655.6,8,HIGH,0.89,HIGH,1
+FedEx Freight,2278.0,5,LOW,0.49,LOW,0
+Maersk Intermodal,1845.3,4,MEDIUM,0.87,HIGH,1
+FedEx Freight,2708.6,6,LOW,0.1,LOW,0
+DHL Express Global,3431.5,6,MEDIUM,0.58,URGENT,1
+UPS Supply Chain Solutions,3390.9,6,HIGH,0.89,URGENT,1
+DHL Express Global,2955.4,5,MEDIUM,0.68,MEDIUM,1
+DHL Express Global,1789.0,3,HIGH,0.48,URGENT,0
+Maersk Intermodal,3506.0,7,MEDIUM,0.28,URGENT,1
+Maersk Intermodal,689.4,3,MEDIUM,0.83,URGENT,1
+Maersk Intermodal,3621.1,7,MEDIUM,0.46,MEDIUM,1
+FedEx Freight,2996.5,6,MEDIUM,0.19,HIGH,0
+Maersk Intermodal,2011.6,5,LOW,0.23,URGENT,0
+DHL Express Global,788.1,3,MEDIUM,0.69,MEDIUM,1
+DHL Express Global,3022.3,7,HIGH,0.04,HIGH,1
+FedEx Freight,939.1,3,MEDIUM,0.81,LOW,0
+FedEx Freight,2766.9,5,MEDIUM,0.12,MEDIUM,1
+Maersk Intermodal,2043.7,5,LOW,0.19,MEDIUM,0
+Maersk Intermodal,1092.9,2,MEDIUM,0.53,URGENT,0
+Maersk Intermodal,2716.3,5,LOW,0.88,URGENT,1
+UPS Supply Chain Solutions,377.5,2,MEDIUM,0.84,MEDIUM,0
+UPS Supply Chain Solutions,3260.3,7,LOW,0.15,HIGH,0
+UPS Supply Chain Solutions,699.4,2,HIGH,0.81,MEDIUM,1
+DHL Express Global,431.5,2,MEDIUM,0.32,URGENT,0
+Maersk Intermodal,3607.8,7,MEDIUM,0.59,MEDIUM,1
+Maersk Intermodal,3258.5,7,LOW,0.46,MEDIUM,1
+Maersk Intermodal,630.1,2,LOW,0.58,URGENT,0
+FedEx Freight,441.0,1,MEDIUM,0.66,URGENT,0
+Maersk Intermodal,1919.9,5,MEDIUM,0.78,LOW,0
+FedEx Freight,3583.9,6,MEDIUM,0.52,MEDIUM,1
+DHL Express Global,3253.6,6,MEDIUM,0.49,MEDIUM,0
+Maersk Intermodal,2229.3,4,LOW,0.83,LOW,0
+DHL Express Global,2557.8,5,MEDIUM,0.78,URGENT,0
+Maersk Intermodal,336.8,2,MEDIUM,0.53,URGENT,0
+UPS Supply Chain Solutions,3006.9,7,MEDIUM,0.3,MEDIUM,1
+FedEx Freight,1026.2,2,LOW,0.04,LOW,1
+FedEx Freight,1832.3,5,MEDIUM,0.11,LOW,1
+UPS Supply Chain Solutions,503.0,2,MEDIUM,0.62,MEDIUM,0
+Maersk Intermodal,3628.8,8,LOW,0.49,MEDIUM,1
+DHL Express Global,331.0,1,LOW,0.55,LOW,0
+FedEx Freight,3440.5,7,LOW,0.63,LOW,1
+UPS Supply Chain Solutions,1814.6,4,MEDIUM,0.34,MEDIUM,0
+UPS Supply Chain Solutions,809.5,3,MEDIUM,0.27,HIGH,0
+UPS Supply Chain Solutions,3779.9,7,HIGH,0.89,LOW,1
+Maersk Intermodal,3699.5,7,MEDIUM,0.41,LOW,1
+FedEx Freight,449.7,1,HIGH,0.77,HIGH,0
+FedEx Freight,3749.0,7,HIGH,0.63,LOW,1
+FedEx Freight,2983.5,5,HIGH,0.09,MEDIUM,1
+Maersk Intermodal,2134.3,5,HIGH,0.14,URGENT,1
+UPS Supply Chain Solutions,2261.9,5,LOW,0.41,HIGH,0
+DHL Express Global,439.8,1,LOW,0.24,LOW,0
+UPS Supply Chain Solutions,1124.3,3,LOW,0.72,LOW,0
+Maersk Intermodal,1858.5,5,MEDIUM,0.75,MEDIUM,0
+Maersk Intermodal,492.7,1,LOW,0.47,MEDIUM,0
+UPS Supply Chain Solutions,3563.6,6,LOW,0.84,MEDIUM,1
+FedEx Freight,1624.2,4,LOW,0.49,HIGH,0
+UPS Supply Chain Solutions,1818.0,5,MEDIUM,0.31,URGENT,1
+DHL Express Global,1793.8,4,MEDIUM,0.36,MEDIUM,0
+DHL Express Global,2132.9,4,LOW,0.64,URGENT,0
+DHL Express Global,2358.2,4,LOW,0.87,LOW,0
+Maersk Intermodal,2393.7,5,MEDIUM,0.85,MEDIUM,1
+DHL Express Global,2678.8,5,MEDIUM,0.65,URGENT,0
+FedEx Freight,2962.8,5,HIGH,0.57,URGENT,1
+UPS Supply Chain Solutions,705.0,3,LOW,0.72,MEDIUM,0
+FedEx Freight,3196.8,7,LOW,0.35,HIGH,0
+UPS Supply Chain Solutions,1794.1,3,LOW,0.94,URGENT,0
+Maersk Intermodal,1497.3,4,LOW,0.17,LOW,1
+FedEx Freight,928.5,3,LOW,0.46,MEDIUM,0
+UPS Supply Chain Solutions,1542.3,4,MEDIUM,0.86,MEDIUM,1
+UPS Supply Chain Solutions,2374.5,5,HIGH,0.56,HIGH,1
+UPS Supply Chain Solutions,3575.9,6,MEDIUM,0.19,URGENT,1
+UPS Supply Chain Solutions,3311.7,6,LOW,0.77,URGENT,1
+Maersk Intermodal,2508.7,5,MEDIUM,0.52,MEDIUM,0
+FedEx Freight,3231.8,7,MEDIUM,0.89,HIGH,0
+DHL Express Global,3021.7,7,LOW,0.59,LOW,1
+UPS Supply Chain Solutions,1853.2,5,MEDIUM,0.33,LOW,1
+DHL Express Global,719.4,3,LOW,0.67,URGENT,0
+FedEx Freight,2095.4,4,LOW,0.41,HIGH,1
+DHL Express Global,2162.8,5,LOW,0.38,MEDIUM,0
+UPS Supply Chain Solutions,2807.7,5,MEDIUM,0.82,HIGH,1
+UPS Supply Chain Solutions,2198.4,5,LOW,0.9,LOW,0
+UPS Supply Chain Solutions,380.8,1,LOW,0.98,MEDIUM,1
+Maersk Intermodal,1455.8,3,MEDIUM,0.4,URGENT,1
+UPS Supply Chain Solutions,3514.1,6,MEDIUM,0.5,URGENT,1
+DHL Express Global,3071.1,7,HIGH,0.05,HIGH,0
+UPS Supply Chain Solutions,708.9,2,MEDIUM,0.02,LOW,0
+FedEx Freight,3062.8,6,LOW,0.05,URGENT,0
+FedEx Freight,3652.5,8,LOW,0.81,HIGH,0
+DHL Express Global,1358.8,3,LOW,0.12,MEDIUM,0
+FedEx Freight,2305.1,4,MEDIUM,0.57,LOW,0
+DHL Express Global,2203.0,4,MEDIUM,0.81,MEDIUM,1
+DHL Express Global,3037.4,7,LOW,0.53,MEDIUM,0
+DHL Express Global,3430.8,7,MEDIUM,0.4,LOW,1
+FedEx Freight,1602.4,3,HIGH,0.85,MEDIUM,1
+Maersk Intermodal,3557.5,7,MEDIUM,0.11,LOW,1
+FedEx Freight,828.6,2,LOW,0.06,HIGH,0
+FedEx Freight,1550.4,3,LOW,0.66,MEDIUM,0
+UPS Supply Chain Solutions,3293.3,6,MEDIUM,0.55,HIGH,0
+UPS Supply Chain Solutions,1154.5,3,MEDIUM,0.87,HIGH,1
+FedEx Freight,792.9,2,MEDIUM,0.72,HIGH,1
+DHL Express Global,3394.7,7,MEDIUM,0.4,HIGH,1
+DHL Express Global,2232.9,4,LOW,0.07,HIGH,0
+DHL Express Global,1952.3,4,MEDIUM,0.98,LOW,1
+Maersk Intermodal,2876.0,6,HIGH,0.9,HIGH,1
+DHL Express Global,2330.2,4,MEDIUM,0.94,LOW,1
+FedEx Freight,2179.5,4,MEDIUM,0.36,HIGH,1
+FedEx Freight,1037.4,3,LOW,0.97,URGENT,1
+Maersk Intermodal,1089.4,2,HIGH,0.94,URGENT,1
+UPS Supply Chain Solutions,2252.0,5,MEDIUM,0.13,MEDIUM,0
+UPS Supply Chain Solutions,643.1,2,MEDIUM,0.24,URGENT,0
+UPS Supply Chain Solutions,1863.5,5,MEDIUM,0.22,URGENT,1
+UPS Supply Chain Solutions,3157.2,6,LOW,0.39,URGENT,0
+UPS Supply Chain Solutions,2723.5,6,LOW,0.93,MEDIUM,1
+Maersk Intermodal,1241.1,4,MEDIUM,0.43,HIGH,0
+Maersk Intermodal,911.9,3,HIGH,0.67,URGENT,1
+UPS Supply Chain Solutions,1682.0,3,MEDIUM,0.36,LOW,1
+Maersk Intermodal,1697.9,3,MEDIUM,0.7,LOW,1
+FedEx Freight,2057.6,4,MEDIUM,0.68,LOW,0
+DHL Express Global,1296.0,4,LOW,0.15,MEDIUM,0
+UPS Supply Chain Solutions,3532.6,6,MEDIUM,0.12,URGENT,1
+DHL Express Global,1754.5,3,LOW,0.88,URGENT,0
+UPS Supply Chain Solutions,1746.3,4,MEDIUM,0.03,URGENT,0
+DHL Express Global,2327.3,4,HIGH,0.49,MEDIUM,1
+UPS Supply Chain Solutions,1275.9,4,HIGH,0.68,LOW,1
+UPS Supply Chain Solutions,3067.6,6,LOW,0.33,MEDIUM,1
+DHL Express Global,3517.4,7,LOW,0.16,URGENT,1
+Maersk Intermodal,2804.2,6,LOW,0.55,MEDIUM,1
+UPS Supply Chain Solutions,701.5,3,MEDIUM,0.74,LOW,1
+UPS Supply Chain Solutions,714.1,2,MEDIUM,0.32,LOW,0
+UPS Supply Chain Solutions,2361.1,5,HIGH,0.54,MEDIUM,1
+DHL Express Global,3575.3,7,LOW,0.25,HIGH,1
+DHL Express Global,3481.5,7,LOW,0.07,MEDIUM,0
+UPS Supply Chain Solutions,3236.1,6,MEDIUM,0.24,HIGH,1
+DHL Express Global,3655.0,8,LOW,1.0,LOW,1
+DHL Express Global,1882.3,4,MEDIUM,0.04,URGENT,0
+Maersk Intermodal,1776.9,4,MEDIUM,0.89,HIGH,0
+UPS Supply Chain Solutions,1659.4,4,MEDIUM,0.4,HIGH,1
+DHL Express Global,854.4,3,MEDIUM,0.33,HIGH,0
+UPS Supply Chain Solutions,3799.3,7,MEDIUM,0.73,MEDIUM,1
+FedEx Freight,2532.9,6,LOW,0.7,HIGH,1
+FedEx Freight,1504.3,3,MEDIUM,0.55,HIGH,1
+UPS Supply Chain Solutions,1406.2,4,MEDIUM,0.85,LOW,1
+UPS Supply Chain Solutions,1131.1,3,MEDIUM,1.0,MEDIUM,1
+UPS Supply Chain Solutions,3087.5,7,LOW,0.5,LOW,1
+UPS Supply Chain Solutions,591.6,1,MEDIUM,0.55,HIGH,0
+DHL Express Global,3652.7,7,LOW,0.17,HIGH,1
+Maersk Intermodal,3335.7,6,MEDIUM,0.83,LOW,1
+DHL Express Global,2742.9,6,HIGH,0.08,MEDIUM,1
+UPS Supply Chain Solutions,3384.2,6,LOW,0.65,MEDIUM,1
+DHL Express Global,1721.2,3,LOW,0.92,HIGH,0
+FedEx Freight,1643.6,4,LOW,0.88,HIGH,0
+Maersk Intermodal,2727.3,6,MEDIUM,0.72,LOW,1
+FedEx Freight,1858.9,5,MEDIUM,0.45,URGENT,0
+DHL Express Global,483.1,1,MEDIUM,0.74,HIGH,1
+Maersk Intermodal,1127.1,2,LOW,0.11,HIGH,1
+DHL Express Global,975.5,3,MEDIUM,0.03,MEDIUM,0
+DHL Express Global,3608.1,8,MEDIUM,0.08,URGENT,1
+Maersk Intermodal,1086.7,2,LOW,0.34,URGENT,1
+DHL Express Global,2644.7,6,HIGH,0.47,MEDIUM,1
+FedEx Freight,2241.4,5,LOW,0.6,URGENT,0
+Maersk Intermodal,2538.1,6,MEDIUM,0.49,URGENT,1
+UPS Supply Chain Solutions,3644.8,7,MEDIUM,0.03,HIGH,0
+DHL Express Global,952.4,3,HIGH,0.23,LOW,1
+UPS Supply Chain Solutions,1961.3,4,LOW,0.77,MEDIUM,1
+UPS Supply Chain Solutions,329.7,2,HIGH,0.42,LOW,0
+DHL Express Global,1416.1,3,MEDIUM,0.04,URGENT,0
+FedEx Freight,969.5,2,MEDIUM,0.95,HIGH,0
+UPS Supply Chain Solutions,2898.3,5,HIGH,0.91,URGENT,1
+Maersk Intermodal,686.2,2,MEDIUM,0.32,MEDIUM,0
+FedEx Freight,700.6,2,MEDIUM,0.42,HIGH,0
+DHL Express Global,2785.5,6,LOW,0.37,LOW,0
+Maersk Intermodal,2565.4,5,LOW,0.5,HIGH,1
+DHL Express Global,2401.7,5,HIGH,0.68,MEDIUM,1
+DHL Express Global,1455.9,3,LOW,0.16,LOW,0
+Maersk Intermodal,2336.8,5,LOW,1.0,URGENT,0
+Maersk Intermodal,3117.5,7,MEDIUM,0.33,URGENT,0
+Maersk Intermodal,577.0,2,LOW,0.28,HIGH,0
+DHL Express Global,1036.0,3,MEDIUM,0.51,HIGH,0
+Maersk Intermodal,3727.0,8,MEDIUM,0.32,HIGH,1
+DHL Express Global,3420.5,7,HIGH,0.2,MEDIUM,1
+FedEx Freight,2126.4,4,MEDIUM,0.23,URGENT,0
+DHL Express Global,3782.8,7,LOW,0.09,LOW,0
+UPS Supply Chain Solutions,3302.3,6,LOW,0.81,URGENT,0
+Maersk Intermodal,973.7,3,MEDIUM,0.87,MEDIUM,1
+DHL Express Global,3657.2,8,HIGH,0.2,MEDIUM,1
+DHL Express Global,2208.6,4,LOW,0.62,LOW,1
+UPS Supply Chain Solutions,662.4,3,HIGH,0.98,MEDIUM,1
+DHL Express Global,3423.3,6,MEDIUM,0.47,HIGH,0
+Maersk Intermodal,962.3,3,HIGH,0.95,HIGH,1
+UPS Supply Chain Solutions,1442.8,3,LOW,0.76,LOW,0
+FedEx Freight,3040.5,6,HIGH,0.57,URGENT,1
+FedEx Freight,2587.7,5,MEDIUM,0.64,URGENT,1
+FedEx Freight,2458.1,6,MEDIUM,0.41,URGENT,0
+Maersk Intermodal,3508.4,7,MEDIUM,0.49,URGENT,1
+UPS Supply Chain Solutions,1546.5,4,LOW,0.62,LOW,0
+Maersk Intermodal,2188.8,5,MEDIUM,0.7,MEDIUM,1
+DHL Express Global,3792.6,7,MEDIUM,0.39,LOW,0
+Maersk Intermodal,1145.7,3,HIGH,0.22,LOW,1
+Maersk Intermodal,3763.4,8,MEDIUM,0.98,LOW,1
+DHL Express Global,2216.2,5,HIGH,0.85,MEDIUM,1
+DHL Express Global,2745.5,5,MEDIUM,0.28,URGENT,0
+Maersk Intermodal,403.6,2,MEDIUM,0.59,HIGH,0
+FedEx Freight,477.1,1,HIGH,0.98,URGENT,1
+DHL Express Global,1496.0,4,MEDIUM,0.06,LOW,1
+Maersk Intermodal,2747.2,6,LOW,0.77,URGENT,1
+Maersk Intermodal,1543.6,3,MEDIUM,0.39,HIGH,1
+FedEx Freight,2819.4,6,LOW,0.17,MEDIUM,1
+FedEx Freight,1877.3,5,MEDIUM,0.64,URGENT,0
+FedEx Freight,2978.2,5,LOW,0.63,LOW,1
+UPS Supply Chain Solutions,1973.4,5,LOW,0.08,URGENT,0
+DHL Express Global,3315.8,7,LOW,0.78,URGENT,1
+FedEx Freight,3067.1,7,MEDIUM,0.04,LOW,0
+Maersk Intermodal,2821.1,5,LOW,0.69,LOW,1
+DHL Express Global,2796.1,5,HIGH,0.66,HIGH,1
+FedEx Freight,1933.1,4,MEDIUM,0.52,LOW,1
+FedEx Freight,2235.5,5,MEDIUM,0.37,URGENT,0
+Maersk Intermodal,2695.6,5,LOW,0.5,MEDIUM,1
+Maersk Intermodal,1112.5,3,MEDIUM,0.28,URGENT,0
+FedEx Freight,2917.6,5,LOW,0.56,MEDIUM,0
+Maersk Intermodal,1516.5,3,MEDIUM,0.48,MEDIUM,1
+FedEx Freight,2702.5,6,MEDIUM,0.09,URGENT,0
+UPS Supply Chain Solutions,568.1,2,HIGH,0.29,LOW,1
+FedEx Freight,2384.3,4,HIGH,0.39,URGENT,0
+UPS Supply Chain Solutions,3649.8,8,LOW,0.86,MEDIUM,1
+FedEx Freight,2390.0,5,LOW,0.33,HIGH,1
+FedEx Freight,339.3,1,MEDIUM,0.24,LOW,0
+DHL Express Global,979.6,2,LOW,0.19,HIGH,0
+UPS Supply Chain Solutions,2760.0,6,HIGH,0.37,HIGH,0
+DHL Express Global,2534.8,5,MEDIUM,0.61,URGENT,0
+UPS Supply Chain Solutions,2271.8,5,MEDIUM,0.07,MEDIUM,1
+Maersk Intermodal,2875.8,6,MEDIUM,0.67,URGENT,1
+DHL Express Global,1656.0,3,MEDIUM,0.72,MEDIUM,1
+UPS Supply Chain Solutions,570.5,1,HIGH,0.54,LOW,1
+DHL Express Global,2930.7,6,MEDIUM,0.81,HIGH,1
+DHL Express Global,503.2,1,HIGH,0.23,MEDIUM,1
+FedEx Freight,3401.2,6,HIGH,0.77,LOW,1
+Maersk Intermodal,951.5,3,LOW,0.36,HIGH,0
+Maersk Intermodal,2717.2,6,LOW,0.37,URGENT,1
+Maersk Intermodal,322.7,2,MEDIUM,0.06,MEDIUM,0
+UPS Supply Chain Solutions,1101.6,3,MEDIUM,0.53,MEDIUM,0
+Maersk Intermodal,2595.5,5,MEDIUM,0.21,URGENT,0
+UPS Supply Chain Solutions,2213.3,4,MEDIUM,0.6,MEDIUM,0
+FedEx Freight,469.9,2,MEDIUM,0.37,LOW,0
+UPS Supply Chain Solutions,2939.7,6,HIGH,0.49,LOW,0
+Maersk Intermodal,519.5,1,MEDIUM,0.47,LOW,0
+Maersk Intermodal,3093.7,6,MEDIUM,0.22,LOW,1
+DHL Express Global,1235.2,4,LOW,0.18,HIGH,1
+DHL Express Global,2870.4,5,MEDIUM,0.88,HIGH,0
+UPS Supply Chain Solutions,2314.5,5,MEDIUM,0.05,URGENT,0
+FedEx Freight,3488.7,6,LOW,0.55,MEDIUM,0
+DHL Express Global,1027.6,3,LOW,0.01,URGENT,0
+Maersk Intermodal,1631.3,3,MEDIUM,0.11,URGENT,1
+DHL Express Global,3250.4,7,MEDIUM,0.46,HIGH,0
+FedEx Freight,595.9,2,LOW,0.21,URGENT,1
+DHL Express Global,2683.4,5,HIGH,0.72,LOW,1
+DHL Express Global,3790.8,8,LOW,0.55,LOW,0
+FedEx Freight,1823.5,5,LOW,0.93,HIGH,0
+DHL Express Global,1963.6,4,MEDIUM,0.88,URGENT,1
+DHL Express Global,1799.2,3,LOW,0.49,LOW,0
+UPS Supply Chain Solutions,1187.1,3,LOW,0.83,HIGH,0
+UPS Supply Chain Solutions,1802.2,4,LOW,0.42,LOW,0
+Maersk Intermodal,2408.8,6,LOW,0.14,HIGH,1
+DHL Express Global,3009.7,6,LOW,0.2,LOW,0
+UPS Supply Chain Solutions,3125.2,6,MEDIUM,0.3,HIGH,0
+UPS Supply Chain Solutions,1625.4,4,HIGH,0.52,URGENT,1
+FedEx Freight,1917.8,5,MEDIUM,0.69,MEDIUM,0
+DHL Express Global,3488.8,7,HIGH,0.3,MEDIUM,0
+DHL Express Global,311.8,2,LOW,0.0,MEDIUM,0
+Maersk Intermodal,3061.4,6,LOW,0.29,URGENT,0
+DHL Express Global,3045.3,7,MEDIUM,0.08,HIGH,0
+UPS Supply Chain Solutions,3283.2,6,MEDIUM,0.01,LOW,1
+FedEx Freight,554.9,2,LOW,0.21,HIGH,1
+FedEx Freight,455.0,1,MEDIUM,0.94,URGENT,0
+DHL Express Global,3075.9,7,LOW,0.88,LOW,0
+UPS Supply Chain Solutions,1565.9,4,MEDIUM,0.71,HIGH,0
+DHL Express Global,2182.1,4,LOW,0.48,LOW,0
+FedEx Freight,1060.3,3,LOW,0.36,HIGH,0
+DHL Express Global,2401.0,5,LOW,0.75,HIGH,0
+Maersk Intermodal,1712.9,4,MEDIUM,0.7,HIGH,1
+DHL Express Global,811.8,2,LOW,0.1,URGENT,1
+UPS Supply Chain Solutions,3190.5,6,MEDIUM,0.96,LOW,0
+DHL Express Global,2591.4,5,LOW,0.02,MEDIUM,0
+FedEx Freight,2231.3,5,MEDIUM,0.9,MEDIUM,1
+FedEx Freight,2906.4,6,LOW,0.37,HIGH,1
+DHL Express Global,3442.0,7,LOW,0.1,URGENT,0
+FedEx Freight,3599.3,6,LOW,0.68,MEDIUM,0
+Maersk Intermodal,2560.8,6,LOW,0.79,URGENT,1
+DHL Express Global,3377.1,7,MEDIUM,0.2,HIGH,0
+DHL Express Global,1036.6,2,HIGH,0.7,LOW,1
+DHL Express Global,2467.1,5,MEDIUM,0.45,MEDIUM,1
+Maersk Intermodal,793.7,2,LOW,0.31,URGENT,1
+FedEx Freight,1505.3,4,MEDIUM,0.37,MEDIUM,0
+FedEx Freight,3573.7,6,LOW,0.21,LOW,0
+FedEx Freight,3315.9,6,LOW,0.27,MEDIUM,0
+DHL Express Global,1203.2,3,LOW,0.86,URGENT,1
+UPS Supply Chain Solutions,2710.6,5,MEDIUM,0.9,LOW,1
+Maersk Intermodal,3421.5,7,LOW,0.46,URGENT,1
+Maersk Intermodal,1344.4,3,MEDIUM,0.77,LOW,1
+DHL Express Global,919.0,3,MEDIUM,0.25,HIGH,1
+Maersk Intermodal,703.4,2,MEDIUM,0.02,HIGH,0
+Maersk Intermodal,3748.7,8,MEDIUM,0.09,URGENT,1
+UPS Supply Chain Solutions,2070.7,4,HIGH,0.34,MEDIUM,0
+FedEx Freight,2579.9,5,HIGH,0.32,MEDIUM,1
+FedEx Freight,1536.9,3,LOW,0.03,LOW,0
+DHL Express Global,931.7,2,LOW,0.49,MEDIUM,0
+FedEx Freight,872.1,2,LOW,0.5,MEDIUM,0
+DHL Express Global,1269.0,4,MEDIUM,0.12,URGENT,1
+DHL Express Global,782.7,3,LOW,0.26,MEDIUM,0
+DHL Express Global,757.2,2,MEDIUM,0.25,URGENT,1
+UPS Supply Chain Solutions,1916.2,4,MEDIUM,0.1,MEDIUM,1
+FedEx Freight,1219.9,3,LOW,0.62,MEDIUM,0
+DHL Express Global,1317.3,4,MEDIUM,0.01,LOW,0
+DHL Express Global,3315.2,6,HIGH,0.05,HIGH,1
+FedEx Freight,801.5,2,MEDIUM,0.03,LOW,0
+DHL Express Global,1182.8,2,MEDIUM,0.69,LOW,0
+FedEx Freight,1286.0,4,MEDIUM,0.24,MEDIUM,0
+DHL Express Global,3002.0,6,LOW,0.14,HIGH,0
+DHL Express Global,3610.5,8,MEDIUM,0.48,MEDIUM,0
+DHL Express Global,2244.3,4,MEDIUM,0.19,LOW,0
+DHL Express Global,2988.8,5,MEDIUM,0.38,HIGH,1
+UPS Supply Chain Solutions,318.2,2,LOW,0.4,MEDIUM,0
+FedEx Freight,1429.9,4,LOW,0.16,MEDIUM,0
+Maersk Intermodal,3423.5,6,MEDIUM,0.57,MEDIUM,0
+FedEx Freight,2805.1,5,MEDIUM,0.61,HIGH,1
+FedEx Freight,2300.9,5,LOW,0.63,LOW,0
+DHL Express Global,2929.4,6,LOW,0.0,HIGH,0
+DHL Express Global,3710.9,7,LOW,0.08,HIGH,0
+UPS Supply Chain Solutions,3299.4,6,LOW,0.39,LOW,0
+DHL Express Global,2206.7,4,HIGH,0.62,LOW,0
+Maersk Intermodal,671.1,3,LOW,0.44,LOW,0
+FedEx Freight,2759.4,6,LOW,0.26,URGENT,0
+Maersk Intermodal,536.3,2,MEDIUM,0.75,LOW,0
+UPS Supply Chain Solutions,3134.6,7,LOW,0.03,HIGH,0
+Maersk Intermodal,851.8,2,MEDIUM,0.64,HIGH,0
+Maersk Intermodal,2284.3,5,HIGH,0.8,LOW,1
+DHL Express Global,479.1,1,MEDIUM,0.35,LOW,0
+FedEx Freight,385.6,1,MEDIUM,0.84,MEDIUM,1
+DHL Express Global,2257.7,5,LOW,0.2,HIGH,0
+Maersk Intermodal,1237.1,3,LOW,0.62,HIGH,0
+Maersk Intermodal,2234.3,5,LOW,0.78,MEDIUM,1
+UPS Supply Chain Solutions,1167.6,3,HIGH,0.99,HIGH,1
+DHL Express Global,1987.7,5,MEDIUM,0.95,MEDIUM,0
+FedEx Freight,2715.5,5,LOW,0.7,LOW,0
+Maersk Intermodal,832.9,2,HIGH,0.65,HIGH,1
+Maersk Intermodal,360.6,1,MEDIUM,0.43,MEDIUM,0
+Maersk Intermodal,2835.3,5,MEDIUM,0.23,URGENT,0
+UPS Supply Chain Solutions,3189.0,6,MEDIUM,0.93,LOW,1
+UPS Supply Chain Solutions,3670.6,7,MEDIUM,0.24,URGENT,1
+Maersk Intermodal,2148.5,5,MEDIUM,0.72,MEDIUM,1
+FedEx Freight,2581.7,5,HIGH,0.06,MEDIUM,1
+Maersk Intermodal,1810.4,4,LOW,0.42,HIGH,0
+DHL Express Global,1515.7,3,HIGH,0.48,MEDIUM,0
+FedEx Freight,2740.0,6,MEDIUM,0.97,MEDIUM,1
+FedEx Freight,3543.9,7,MEDIUM,0.44,HIGH,1
+DHL Express Global,1184.5,3,MEDIUM,0.65,HIGH,0
+Maersk Intermodal,345.9,1,HIGH,0.48,HIGH,1
+FedEx Freight,2573.5,5,LOW,0.27,MEDIUM,0
+DHL Express Global,2336.5,4,MEDIUM,0.45,MEDIUM,1
+UPS Supply Chain Solutions,3296.5,7,LOW,0.79,URGENT,1
+DHL Express Global,1238.0,4,HIGH,0.67,URGENT,1
+DHL Express Global,460.2,1,HIGH,0.68,MEDIUM,1
+DHL Express Global,2189.0,4,MEDIUM,0.76,LOW,0
+FedEx Freight,1092.0,3,MEDIUM,0.18,URGENT,0
+Maersk Intermodal,1108.4,3,LOW,0.97,LOW,1
+Maersk Intermodal,1798.2,4,LOW,0.6,URGENT,0
+FedEx Freight,3631.2,7,HIGH,0.36,LOW,1
+UPS Supply Chain Solutions,460.0,1,HIGH,0.24,MEDIUM,1
+FedEx Freight,3062.1,7,LOW,0.72,HIGH,0
+DHL Express Global,2242.8,4,MEDIUM,0.64,URGENT,0
+FedEx Freight,3300.2,6,LOW,0.2,URGENT,0
+FedEx Freight,1665.4,3,HIGH,0.32,MEDIUM,1
+FedEx Freight,1708.1,3,LOW,0.05,MEDIUM,1
+DHL Express Global,606.1,2,MEDIUM,0.31,HIGH,0
+UPS Supply Chain Solutions,2604.5,6,LOW,0.78,MEDIUM,0
+Maersk Intermodal,2687.0,6,HIGH,0.35,URGENT,0
+DHL Express Global,1250.7,4,LOW,0.21,HIGH,0
+FedEx Freight,2522.5,6,HIGH,0.72,HIGH,1
+FedEx Freight,2515.5,6,HIGH,0.62,URGENT,1
+FedEx Freight,1421.3,4,MEDIUM,0.77,URGENT,1
+DHL Express Global,640.5,2,HIGH,0.5,MEDIUM,1
+FedEx Freight,2508.5,6,LOW,0.16,LOW,0
+FedEx Freight,695.2,2,MEDIUM,0.42,HIGH,0
+UPS Supply Chain Solutions,426.6,1,MEDIUM,0.65,URGENT,1
+Maersk Intermodal,2034.8,4,MEDIUM,0.88,LOW,1
+UPS Supply Chain Solutions,3006.4,7,MEDIUM,0.78,HIGH,1
+FedEx Freight,2763.1,5,LOW,0.64,LOW,0
+DHL Express Global,2564.0,6,LOW,0.89,URGENT,0
+UPS Supply Chain Solutions,884.9,2,MEDIUM,0.75,URGENT,1
+FedEx Freight,2128.0,5,MEDIUM,0.18,MEDIUM,1
+FedEx Freight,2629.8,6,LOW,0.96,URGENT,1
+FedEx Freight,503.0,1,LOW,0.1,MEDIUM,0
+DHL Express Global,416.5,1,MEDIUM,0.02,MEDIUM,0
+Maersk Intermodal,1190.3,3,LOW,0.0,URGENT,0
+FedEx Freight,3607.9,7,LOW,0.2,LOW,0
+DHL Express Global,2152.4,4,MEDIUM,0.12,URGENT,0
+Maersk Intermodal,2131.7,5,LOW,0.04,URGENT,0
+FedEx Freight,361.6,1,LOW,0.84,MEDIUM,1
+DHL Express Global,729.9,3,MEDIUM,0.97,URGENT,1
+UPS Supply Chain Solutions,2336.8,5,LOW,0.34,URGENT,0
+Maersk Intermodal,2151.9,4,LOW,0.5,MEDIUM,1
+Maersk Intermodal,2582.1,6,MEDIUM,0.37,MEDIUM,1
+DHL Express Global,3647.0,8,MEDIUM,0.34,HIGH,0
+DHL Express Global,1157.8,3,LOW,0.89,MEDIUM,1
+Maersk Intermodal,2180.2,4,MEDIUM,0.29,HIGH,0
+DHL Express Global,1209.7,4,MEDIUM,0.94,MEDIUM,0
+FedEx Freight,1070.0,2,MEDIUM,0.25,MEDIUM,0
+DHL Express Global,626.2,2,LOW,0.45,URGENT,0
+UPS Supply Chain Solutions,3169.9,6,LOW,0.02,URGENT,0
+Maersk Intermodal,3759.8,8,MEDIUM,0.27,MEDIUM,0
+UPS Supply Chain Solutions,3039.3,7,LOW,0.7,MEDIUM,0
+UPS Supply Chain Solutions,1985.2,5,MEDIUM,0.82,MEDIUM,1
+UPS Supply Chain Solutions,589.6,2,MEDIUM,0.82,URGENT,0
+DHL Express Global,1449.3,3,MEDIUM,0.93,URGENT,0
+Maersk Intermodal,1353.5,4,MEDIUM,0.65,MEDIUM,1
+Maersk Intermodal,3754.1,7,LOW,0.62,MEDIUM,1
+Maersk Intermodal,2332.3,5,MEDIUM,0.34,LOW,1
+FedEx Freight,3402.5,7,MEDIUM,0.8,LOW,1
+DHL Express Global,3469.4,6,MEDIUM,0.35,URGENT,1
+UPS Supply Chain Solutions,3379.2,7,LOW,0.47,URGENT,0
+FedEx Freight,1208.6,4,HIGH,0.72,MEDIUM,1
+UPS Supply Chain Solutions,3054.9,6,LOW,0.41,HIGH,0
+UPS Supply Chain Solutions,2236.1,5,LOW,0.96,HIGH,1
+DHL Express Global,1407.1,4,HIGH,0.58,MEDIUM,1
+Maersk Intermodal,1952.7,4,HIGH,0.03,HIGH,1
+UPS Supply Chain Solutions,2211.5,5,MEDIUM,0.53,MEDIUM,1
+DHL Express Global,1435.6,4,LOW,0.38,LOW,0
+Maersk Intermodal,3613.8,7,LOW,0.4,HIGH,0
+FedEx Freight,976.2,2,MEDIUM,0.75,HIGH,1
+DHL Express Global,3479.6,7,HIGH,0.04,MEDIUM,1
+UPS Supply Chain Solutions,2864.4,5,HIGH,0.74,HIGH,1
+Maersk Intermodal,2858.4,5,LOW,0.52,URGENT,0
+Maersk Intermodal,323.1,1,HIGH,0.37,HIGH,1
+Maersk Intermodal,1248.1,4,MEDIUM,0.64,URGENT,0
+DHL Express Global,2586.9,6,MEDIUM,0.05,HIGH,0
+DHL Express Global,2544.8,6,LOW,0.04,MEDIUM,0
+Maersk Intermodal,1752.7,4,MEDIUM,0.6,LOW,1
+FedEx Freight,2131.3,5,MEDIUM,0.41,URGENT,1
+FedEx Freight,1537.0,4,LOW,0.32,MEDIUM,0
+DHL Express Global,2334.0,4,LOW,0.15,HIGH,0
+FedEx Freight,797.0,3,MEDIUM,0.57,HIGH,1
+FedEx Freight,2421.4,5,LOW,0.95,URGENT,1
+DHL Express Global,799.3,3,LOW,0.82,LOW,0
+UPS Supply Chain Solutions,3258.7,7,MEDIUM,0.6,MEDIUM,0
+UPS Supply Chain Solutions,914.8,2,LOW,0.03,HIGH,0
+UPS Supply Chain Solutions,3593.6,7,MEDIUM,0.17,LOW,1
+DHL Express Global,2110.8,4,MEDIUM,0.15,MEDIUM,0
+UPS Supply Chain Solutions,1103.0,3,MEDIUM,0.39,MEDIUM,0
+FedEx Freight,2680.7,5,LOW,1.0,HIGH,1
+UPS Supply Chain Solutions,1781.4,4,HIGH,0.75,URGENT,1
+DHL Express Global,2230.6,5,LOW,0.88,LOW,1
+DHL Express Global,1339.8,4,MEDIUM,0.37,LOW,0
+UPS Supply Chain Solutions,741.2,3,LOW,0.78,MEDIUM,1
+UPS Supply Chain Solutions,1985.4,5,LOW,0.29,LOW,1
+DHL Express Global,2099.8,4,MEDIUM,0.08,MEDIUM,0
+FedEx Freight,2420.8,6,LOW,0.73,HIGH,0
+UPS Supply Chain Solutions,1433.6,3,HIGH,0.26,MEDIUM,1
+UPS Supply Chain Solutions,1844.6,5,MEDIUM,0.23,MEDIUM,0
+Maersk Intermodal,941.5,3,LOW,0.05,MEDIUM,0
+DHL Express Global,2323.5,4,HIGH,0.32,MEDIUM,0
+DHL Express Global,941.9,2,MEDIUM,0.83,MEDIUM,1
+Maersk Intermodal,3467.8,6,LOW,0.08,LOW,0
+UPS Supply Chain Solutions,310.9,1,MEDIUM,0.18,MEDIUM,1
+Maersk Intermodal,976.3,3,MEDIUM,0.15,URGENT,0
+UPS Supply Chain Solutions,828.5,2,MEDIUM,0.06,URGENT,0
+DHL Express Global,2149.2,4,MEDIUM,0.32,LOW,1
+DHL Express Global,2321.8,4,HIGH,0.89,HIGH,1
+UPS Supply Chain Solutions,2222.3,4,LOW,0.1,URGENT,0
+UPS Supply Chain Solutions,1701.1,3,MEDIUM,0.07,HIGH,0
+FedEx Freight,2359.6,4,LOW,0.55,LOW,0
+Maersk Intermodal,2692.2,6,HIGH,0.71,URGENT,1
+Maersk Intermodal,802.0,2,LOW,0.31,MEDIUM,0
+Maersk Intermodal,533.3,2,MEDIUM,0.88,LOW,0
+UPS Supply Chain Solutions,3626.2,7,MEDIUM,0.95,URGENT,1
+FedEx Freight,2949.6,6,MEDIUM,0.01,LOW,0
+UPS Supply Chain Solutions,2126.6,5,MEDIUM,0.1,URGENT,1
+FedEx Freight,3625.4,8,LOW,0.59,URGENT,0
+Maersk Intermodal,2225.0,4,LOW,0.9,HIGH,0
+UPS Supply Chain Solutions,1049.1,2,MEDIUM,0.67,URGENT,1
+Maersk Intermodal,3471.9,7,HIGH,0.07,HIGH,0
+Maersk Intermodal,2991.4,6,MEDIUM,0.33,MEDIUM,0
+DHL Express Global,359.9,2,MEDIUM,0.83,LOW,0
+DHL Express Global,713.0,2,HIGH,0.28,HIGH,1
+DHL Express Global,1239.9,4,MEDIUM,0.89,URGENT,0
+Maersk Intermodal,458.8,1,MEDIUM,0.67,URGENT,0
+Maersk Intermodal,3285.6,6,HIGH,0.81,LOW,1
+UPS Supply Chain Solutions,2639.7,5,MEDIUM,0.81,URGENT,1
+DHL Express Global,2188.0,4,LOW,0.65,MEDIUM,1
+UPS Supply Chain Solutions,1494.7,3,MEDIUM,0.01,MEDIUM,0
+UPS Supply Chain Solutions,2616.4,5,MEDIUM,0.62,LOW,0
+DHL Express Global,1585.5,3,MEDIUM,0.36,LOW,1
+DHL Express Global,1570.5,3,LOW,0.82,LOW,0
+UPS Supply Chain Solutions,3460.2,7,LOW,0.04,HIGH,1
+UPS Supply Chain Solutions,1460.2,4,LOW,0.62,HIGH,1
+Maersk Intermodal,1939.1,4,MEDIUM,0.92,HIGH,0
+Maersk Intermodal,521.3,1,LOW,0.16,LOW,1
+Maersk Intermodal,1971.3,5,MEDIUM,0.25,HIGH,0
+FedEx Freight,2103.0,4,HIGH,0.44,HIGH,1
+DHL Express Global,2985.3,5,HIGH,0.94,LOW,0
+Maersk Intermodal,3654.0,7,HIGH,0.71,URGENT,0
+DHL Express Global,3290.7,6,LOW,0.89,HIGH,1
+UPS Supply Chain Solutions,2981.6,5,MEDIUM,0.22,MEDIUM,0
+UPS Supply Chain Solutions,1084.7,3,MEDIUM,0.47,LOW,1
+FedEx Freight,2738.5,6,MEDIUM,0.04,LOW,1
+Maersk Intermodal,1513.3,3,MEDIUM,0.79,URGENT,1
+FedEx Freight,3277.6,7,HIGH,0.33,MEDIUM,1
+FedEx Freight,2467.1,5,LOW,0.47,MEDIUM,1
+DHL Express Global,1621.2,4,MEDIUM,0.96,URGENT,0
+Maersk Intermodal,2266.9,4,MEDIUM,0.89,MEDIUM,1
+UPS Supply Chain Solutions,3330.2,6,MEDIUM,0.82,MEDIUM,0
+DHL Express Global,1789.2,3,MEDIUM,0.12,URGENT,0
+Maersk Intermodal,1418.0,4,MEDIUM,0.87,HIGH,1
+DHL Express Global,2949.9,6,LOW,0.79,URGENT,0
+DHL Express Global,3109.2,6,LOW,0.55,HIGH,0
+DHL Express Global,3214.3,6,MEDIUM,0.83,MEDIUM,1
+FedEx Freight,3720.6,8,MEDIUM,0.38,MEDIUM,1
+DHL Express Global,1023.7,3,MEDIUM,0.57,MEDIUM,1
+UPS Supply Chain Solutions,779.7,2,LOW,0.93,URGENT,1
+UPS Supply Chain Solutions,1821.4,4,MEDIUM,0.93,URGENT,1
+DHL Express Global,1084.7,2,MEDIUM,0.02,MEDIUM,0
+Maersk Intermodal,2322.6,4,HIGH,0.75,URGENT,1
+Maersk Intermodal,2240.3,4,HIGH,0.84,LOW,1
+DHL Express Global,3174.4,6,MEDIUM,0.92,URGENT,1
+FedEx Freight,660.6,2,MEDIUM,0.68,URGENT,0
+FedEx Freight,2138.8,4,HIGH,0.09,URGENT,1
+Maersk Intermodal,1352.0,4,HIGH,0.47,LOW,1
+FedEx Freight,2509.5,6,HIGH,0.85,HIGH,1
+UPS Supply Chain Solutions,568.8,2,MEDIUM,0.04,URGENT,0
+FedEx Freight,1535.8,4,MEDIUM,0.43,URGENT,0
+Maersk Intermodal,1694.2,4,LOW,0.28,HIGH,1
+UPS Supply Chain Solutions,2927.9,5,LOW,0.8,URGENT,0
+Maersk Intermodal,815.8,2,LOW,0.56,URGENT,0
+UPS Supply Chain Solutions,514.1,1,LOW,0.99,LOW,0
+FedEx Freight,2746.2,5,LOW,0.83,MEDIUM,0
+UPS Supply Chain Solutions,1841.0,5,HIGH,0.67,LOW,1
+DHL Express Global,1599.4,4,HIGH,0.57,URGENT,0
+FedEx Freight,2802.0,5,LOW,0.83,HIGH,0
+FedEx Freight,1330.5,4,MEDIUM,0.04,MEDIUM,0
+DHL Express Global,834.4,2,MEDIUM,0.97,HIGH,0
+Maersk Intermodal,1796.0,3,HIGH,0.39,MEDIUM,1
+DHL Express Global,3133.2,6,LOW,0.76,URGENT,1
+Maersk Intermodal,2547.0,6,LOW,0.0,URGENT,1
+UPS Supply Chain Solutions,988.2,3,LOW,0.2,URGENT,1
+DHL Express Global,1533.7,3,LOW,0.12,URGENT,1
+FedEx Freight,391.2,1,MEDIUM,0.57,URGENT,1
+DHL Express Global,1635.2,3,HIGH,0.38,LOW,1
+UPS Supply Chain Solutions,1874.8,4,MEDIUM,0.14,URGENT,1
+Maersk Intermodal,2731.2,5,LOW,0.87,MEDIUM,0
+UPS Supply Chain Solutions,1219.8,4,MEDIUM,0.92,MEDIUM,1
+DHL Express Global,777.6,2,HIGH,0.6,MEDIUM,1
+UPS Supply Chain Solutions,3137.4,6,MEDIUM,0.76,HIGH,1
+DHL Express Global,1055.3,2,MEDIUM,0.56,MEDIUM,1
+DHL Express Global,841.1,3,LOW,0.51,MEDIUM,1
+Maersk Intermodal,3030.7,6,HIGH,0.23,MEDIUM,1
+FedEx Freight,1473.0,4,MEDIUM,0.78,HIGH,1
+FedEx Freight,3134.6,7,MEDIUM,0.84,URGENT,0
+Maersk Intermodal,2598.7,5,LOW,0.29,LOW,1
+Maersk Intermodal,1784.8,4,MEDIUM,0.84,LOW,1
+Maersk Intermodal,580.8,2,MEDIUM,0.75,LOW,0
+DHL Express Global,1628.8,4,LOW,0.27,URGENT,0
+FedEx Freight,1913.4,5,LOW,0.72,MEDIUM,1
+FedEx Freight,3134.2,7,MEDIUM,0.2,URGENT,0
+UPS Supply Chain Solutions,428.8,2,MEDIUM,0.75,MEDIUM,1
+UPS Supply Chain Solutions,517.2,2,MEDIUM,0.3,HIGH,1
+UPS Supply Chain Solutions,1533.8,4,LOW,0.58,HIGH,0
+UPS Supply Chain Solutions,2070.7,5,MEDIUM,0.54,MEDIUM,0
+Maersk Intermodal,2744.8,5,MEDIUM,0.0,HIGH,1
+FedEx Freight,2064.5,5,HIGH,0.66,LOW,0
+FedEx Freight,2018.2,5,MEDIUM,0.17,URGENT,1
+Maersk Intermodal,3763.6,7,LOW,0.25,LOW,1
+DHL Express Global,2462.7,6,MEDIUM,0.26,URGENT,0
+DHL Express Global,1839.2,4,MEDIUM,0.49,MEDIUM,0
+UPS Supply Chain Solutions,2192.5,5,LOW,0.27,URGENT,0
+DHL Express Global,1097.3,3,MEDIUM,0.04,MEDIUM,1
+FedEx Freight,1412.1,3,MEDIUM,0.97,MEDIUM,1
+UPS Supply Chain Solutions,2578.7,6,LOW,0.37,HIGH,1
+Maersk Intermodal,3224.6,7,HIGH,0.36,URGENT,1
+FedEx Freight,1147.6,3,LOW,0.05,LOW,0
+Maersk Intermodal,2948.6,5,MEDIUM,0.48,URGENT,0
+UPS Supply Chain Solutions,2937.7,6,LOW,0.5,HIGH,1
+FedEx Freight,794.8,2,MEDIUM,0.16,MEDIUM,0
+FedEx Freight,2936.8,5,MEDIUM,0.54,MEDIUM,0
+DHL Express Global,805.0,2,LOW,0.47,URGENT,0
+Maersk Intermodal,869.1,2,MEDIUM,0.14,HIGH,0
+Maersk Intermodal,3747.9,8,MEDIUM,0.92,MEDIUM,1
+UPS Supply Chain Solutions,3715.3,7,LOW,0.5,MEDIUM,1
+UPS Supply Chain Solutions,546.2,1,HIGH,1.0,HIGH,0
+Maersk Intermodal,585.6,2,HIGH,0.75,URGENT,1
+UPS Supply Chain Solutions,2003.2,4,MEDIUM,0.9,LOW,1
+UPS Supply Chain Solutions,675.6,3,MEDIUM,0.45,HIGH,1
+DHL Express Global,322.8,2,MEDIUM,0.1,HIGH,0
+DHL Express Global,3613.2,8,HIGH,0.3,MEDIUM,1
+DHL Express Global,1558.5,3,LOW,0.46,URGENT,0
+DHL Express Global,366.9,1,HIGH,0.21,URGENT,1
+FedEx Freight,3399.5,6,LOW,0.02,HIGH,0
+FedEx Freight,2716.4,5,MEDIUM,0.62,HIGH,0
+FedEx Freight,1459.1,3,LOW,0.45,MEDIUM,0
+DHL Express Global,3560.6,7,LOW,0.14,URGENT,1
+Maersk Intermodal,1631.0,3,MEDIUM,0.6,HIGH,1
+DHL Express Global,1141.9,3,HIGH,0.81,LOW,1
+FedEx Freight,2337.6,4,MEDIUM,0.17,LOW,1
+UPS Supply Chain Solutions,1702.8,4,LOW,0.28,LOW,0
+DHL Express Global,1844.6,4,HIGH,0.48,URGENT,0
+FedEx Freight,1734.9,4,MEDIUM,0.79,HIGH,0
+FedEx Freight,3643.9,7,MEDIUM,0.64,HIGH,1
+DHL Express Global,3471.9,7,MEDIUM,0.49,HIGH,0
+DHL Express Global,1333.6,3,MEDIUM,0.78,URGENT,0
+UPS Supply Chain Solutions,1895.0,5,MEDIUM,0.07,LOW,0
+DHL Express Global,1590.1,4,LOW,0.39,HIGH,0
+DHL Express Global,1180.9,3,LOW,0.83,MEDIUM,0
+DHL Express Global,2766.0,6,MEDIUM,0.09,URGENT,1
+UPS Supply Chain Solutions,2615.2,5,HIGH,0.68,URGENT,0
+UPS Supply Chain Solutions,486.0,1,LOW,0.46,URGENT,0
+FedEx Freight,499.1,2,HIGH,0.57,MEDIUM,1
+DHL Express Global,3285.9,6,LOW,0.27,URGENT,1
+Maersk Intermodal,1568.4,4,HIGH,0.25,URGENT,1
+DHL Express Global,2382.3,4,MEDIUM,0.18,URGENT,0
+UPS Supply Chain Solutions,3018.1,6,LOW,0.71,LOW,1
+FedEx Freight,1157.9,2,LOW,0.48,URGENT,0
+Maersk Intermodal,458.7,2,MEDIUM,0.49,MEDIUM,0
+Maersk Intermodal,3206.6,7,MEDIUM,0.95,URGENT,0
+DHL Express Global,2427.9,6,HIGH,0.2,HIGH,1
+UPS Supply Chain Solutions,3631.1,7,MEDIUM,0.87,HIGH,1
+DHL Express Global,1916.5,4,MEDIUM,0.13,HIGH,1
+FedEx Freight,471.8,2,HIGH,0.28,HIGH,1
+FedEx Freight,666.8,3,LOW,0.05,URGENT,0
+UPS Supply Chain Solutions,514.6,1,LOW,0.24,URGENT,1
+DHL Express Global,973.8,3,HIGH,0.07,URGENT,1
+FedEx Freight,997.3,2,MEDIUM,0.97,LOW,1
+DHL Express Global,744.9,3,HIGH,0.15,LOW,0
+DHL Express Global,2200.3,4,MEDIUM,0.12,URGENT,0
+DHL Express Global,2688.6,5,LOW,0.49,HIGH,0
+Maersk Intermodal,1184.9,3,LOW,0.59,URGENT,0
+UPS Supply Chain Solutions,3285.2,6,LOW,0.12,URGENT,1
+DHL Express Global,3373.4,7,LOW,0.6,HIGH,0
+DHL Express Global,2546.1,5,LOW,0.52,URGENT,0
+Maersk Intermodal,3599.3,6,HIGH,0.74,MEDIUM,1
+DHL Express Global,652.8,2,HIGH,0.24,HIGH,0
+FedEx Freight,1822.5,5,LOW,0.33,HIGH,1
+FedEx Freight,3451.4,6,MEDIUM,0.44,LOW,0
+Maersk Intermodal,2099.8,5,LOW,0.54,LOW,1
+DHL Express Global,2396.4,4,MEDIUM,0.4,LOW,0
+FedEx Freight,2781.3,6,LOW,0.3,MEDIUM,0
+FedEx Freight,2639.8,6,LOW,0.9,MEDIUM,0
+UPS Supply Chain Solutions,2834.7,6,MEDIUM,0.74,URGENT,0
+FedEx Freight,1754.5,3,MEDIUM,0.4,HIGH,0
+DHL Express Global,340.2,2,MEDIUM,0.81,URGENT,0
+UPS Supply Chain Solutions,897.3,2,MEDIUM,0.95,HIGH,1
+Maersk Intermodal,1204.9,3,HIGH,0.29,HIGH,1
+DHL Express Global,2810.6,5,LOW,0.58,LOW,0
+UPS Supply Chain Solutions,2634.2,5,MEDIUM,0.02,LOW,0
+UPS Supply Chain Solutions,691.5,2,LOW,0.22,URGENT,0
+Maersk Intermodal,991.6,3,MEDIUM,0.91,LOW,1
+DHL Express Global,2437.7,6,LOW,0.55,HIGH,0
+FedEx Freight,731.4,3,HIGH,0.46,URGENT,1
+DHL Express Global,1295.5,4,HIGH,0.91,LOW,1
+DHL Express Global,1728.9,3,LOW,0.47,URGENT,0
+DHL Express Global,1104.5,2,MEDIUM,0.66,URGENT,1
+Maersk Intermodal,3087.0,6,LOW,0.18,MEDIUM,0
+UPS Supply Chain Solutions,1119.0,2,MEDIUM,0.03,MEDIUM,0
+FedEx Freight,1012.2,2,MEDIUM,0.79,LOW,1
+DHL Express Global,333.5,2,HIGH,0.86,URGENT,1
+UPS Supply Chain Solutions,2435.3,5,MEDIUM,0.84,LOW,1
+FedEx Freight,2447.3,6,HIGH,0.24,URGENT,1
+FedEx Freight,2039.5,5,MEDIUM,0.94,URGENT,0
+Maersk Intermodal,832.2,2,MEDIUM,0.89,LOW,1
+Maersk Intermodal,1726.8,4,LOW,0.96,LOW,1
+UPS Supply Chain Solutions,2860.3,5,LOW,0.46,URGENT,0
+DHL Express Global,3035.1,7,HIGH,0.48,LOW,1
+FedEx Freight,2167.3,5,HIGH,0.78,HIGH,1
+UPS Supply Chain Solutions,2457.3,6,HIGH,0.63,LOW,1
+Maersk Intermodal,667.2,3,MEDIUM,0.89,HIGH,1
+UPS Supply Chain Solutions,2807.1,6,LOW,0.47,HIGH,1
+DHL Express Global,1798.6,3,LOW,0.12,MEDIUM,1
+DHL Express Global,1146.4,2,LOW,0.21,LOW,0
+Maersk Intermodal,1242.4,3,LOW,0.07,HIGH,0
+DHL Express Global,1223.1,3,MEDIUM,0.17,HIGH,1
+DHL Express Global,3287.9,7,HIGH,0.38,MEDIUM,1
+UPS Supply Chain Solutions,503.9,2,MEDIUM,0.47,URGENT,0
+Maersk Intermodal,2555.5,5,LOW,0.1,URGENT,0
+Maersk Intermodal,2808.5,5,MEDIUM,0.43,MEDIUM,0
+DHL Express Global,2160.1,5,MEDIUM,0.57,LOW,0
+Maersk Intermodal,3535.0,6,LOW,0.96,LOW,1
+UPS Supply Chain Solutions,1818.3,4,MEDIUM,0.47,HIGH,0
+FedEx Freight,3636.6,8,LOW,0.05,HIGH,1
+DHL Express Global,2868.4,5,MEDIUM,0.16,LOW,1
+DHL Express Global,933.9,3,MEDIUM,0.15,HIGH,1
+UPS Supply Chain Solutions,2884.9,6,LOW,0.0,LOW,0
+Maersk Intermodal,1678.9,3,HIGH,0.02,MEDIUM,0
+DHL Express Global,2476.5,5,LOW,0.19,URGENT,0
+UPS Supply Chain Solutions,2085.3,4,MEDIUM,0.72,HIGH,1
+FedEx Freight,1497.3,4,LOW,0.4,URGENT,0
+FedEx Freight,2067.1,4,MEDIUM,0.21,LOW,1
+Maersk Intermodal,3412.5,7,HIGH,0.3,URGENT,1
+Maersk Intermodal,1254.9,3,MEDIUM,0.89,HIGH,0
+FedEx Freight,3250.7,6,MEDIUM,0.67,URGENT,0
+DHL Express Global,2374.2,5,HIGH,0.47,URGENT,1
+FedEx Freight,2617.9,5,MEDIUM,0.36,HIGH,1
+FedEx Freight,3506.0,6,HIGH,0.14,URGENT,0
+Maersk Intermodal,817.0,3,MEDIUM,0.11,URGENT,1
+UPS Supply Chain Solutions,506.1,1,MEDIUM,0.41,MEDIUM,1
+UPS Supply Chain Solutions,3422.1,6,LOW,0.92,URGENT,0
+FedEx Freight,3079.0,6,MEDIUM,0.9,LOW,0
+UPS Supply Chain Solutions,3340.9,7,HIGH,0.13,URGENT,0
+DHL Express Global,3611.8,7,MEDIUM,0.33,URGENT,0
+DHL Express Global,3491.2,7,MEDIUM,0.91,LOW,1
+DHL Express Global,1662.4,3,HIGH,0.57,URGENT,0
+UPS Supply Chain Solutions,2214.6,5,MEDIUM,0.49,URGENT,1
+DHL Express Global,2023.6,5,MEDIUM,0.14,HIGH,0
+FedEx Freight,2479.7,6,MEDIUM,0.75,HIGH,1
+DHL Express Global,3283.1,7,LOW,0.52,MEDIUM,0
+Maersk Intermodal,1783.7,4,HIGH,0.82,URGENT,0
+FedEx Freight,2540.0,6,MEDIUM,0.37,URGENT,0
+Maersk Intermodal,3782.3,8,HIGH,0.59,LOW,1
+Maersk Intermodal,1131.8,2,MEDIUM,0.75,MEDIUM,1
+UPS Supply Chain Solutions,1096.9,3,LOW,0.34,MEDIUM,0
+DHL Express Global,2037.0,4,MEDIUM,0.72,URGENT,1
+FedEx Freight,2610.4,6,MEDIUM,0.91,MEDIUM,1
+Maersk Intermodal,3541.1,6,MEDIUM,0.01,MEDIUM,0
+FedEx Freight,2648.0,5,MEDIUM,0.04,MEDIUM,0
+DHL Express Global,3673.2,7,MEDIUM,0.2,URGENT,1
+DHL Express Global,3536.6,7,MEDIUM,0.57,URGENT,0
+UPS Supply Chain Solutions,3080.5,6,MEDIUM,0.33,MEDIUM,0
+Maersk Intermodal,432.9,1,HIGH,0.6,LOW,1
+Maersk Intermodal,2279.2,5,HIGH,0.37,HIGH,1
+DHL Express Global,1141.1,3,MEDIUM,0.63,HIGH,0
+UPS Supply Chain Solutions,3696.9,8,HIGH,0.62,MEDIUM,1
+Maersk Intermodal,455.1,1,HIGH,0.36,HIGH,1
+DHL Express Global,1050.9,2,LOW,0.05,MEDIUM,0
+Maersk Intermodal,1441.5,3,LOW,0.02,LOW,0
+DHL Express Global,2329.6,5,HIGH,0.85,URGENT,1
+DHL Express Global,2868.7,5,LOW,0.35,LOW,1
+FedEx Freight,3741.8,8,LOW,0.1,URGENT,1
+UPS Supply Chain Solutions,882.3,2,MEDIUM,0.99,LOW,1
+Maersk Intermodal,3020.0,7,LOW,0.66,HIGH,1
+UPS Supply Chain Solutions,719.6,3,MEDIUM,0.96,HIGH,0
+Maersk Intermodal,1270.5,3,LOW,0.14,URGENT,0
+Maersk Intermodal,1370.2,3,HIGH,0.43,HIGH,0
+FedEx Freight,1123.2,3,MEDIUM,0.51,HIGH,0
+FedEx Freight,843.8,2,MEDIUM,0.77,HIGH,0
+UPS Supply Chain Solutions,2209.4,4,LOW,0.04,HIGH,0
+UPS Supply Chain Solutions,1224.4,3,LOW,0.21,LOW,0
+DHL Express Global,3172.9,6,HIGH,0.13,LOW,0
+DHL Express Global,1601.6,3,MEDIUM,0.9,MEDIUM,1
+UPS Supply Chain Solutions,349.3,2,MEDIUM,0.64,MEDIUM,0
+Maersk Intermodal,3346.1,6,LOW,0.53,MEDIUM,0
+FedEx Freight,2886.9,6,MEDIUM,0.86,LOW,1
+UPS Supply Chain Solutions,3571.1,7,MEDIUM,0.65,LOW,0
+FedEx Freight,3091.3,6,MEDIUM,0.78,LOW,1
+UPS Supply Chain Solutions,1374.9,4,LOW,0.09,URGENT,0
+DHL Express Global,1589.8,3,MEDIUM,0.43,HIGH,0
+Maersk Intermodal,2988.3,5,LOW,0.11,LOW,0
+UPS Supply Chain Solutions,3139.1,6,MEDIUM,0.51,LOW,1
+DHL Express Global,3025.0,7,MEDIUM,0.44,URGENT,0
+DHL Express Global,1481.3,4,LOW,0.63,HIGH,0
+DHL Express Global,845.1,2,MEDIUM,0.67,HIGH,1
+DHL Express Global,2430.4,5,LOW,0.94,LOW,0
+FedEx Freight,3239.5,7,MEDIUM,0.64,HIGH,0
+DHL Express Global,1370.4,4,HIGH,0.59,HIGH,1
+Maersk Intermodal,504.4,1,LOW,0.66,MEDIUM,1
+FedEx Freight,1016.4,3,LOW,0.74,HIGH,1
+DHL Express Global,3648.3,8,MEDIUM,0.08,MEDIUM,0
+DHL Express Global,1382.0,4,HIGH,0.01,MEDIUM,0
+Maersk Intermodal,3751.3,8,HIGH,0.56,URGENT,0
+UPS Supply Chain Solutions,1601.8,3,MEDIUM,0.49,URGENT,1
+DHL Express Global,3743.4,8,MEDIUM,0.01,LOW,0
+FedEx Freight,1038.2,2,MEDIUM,0.09,URGENT,0
+UPS Supply Chain Solutions,1071.1,2,HIGH,0.43,URGENT,1
+DHL Express Global,1479.3,4,MEDIUM,0.0,LOW,0
+Maersk Intermodal,334.1,1,LOW,0.46,MEDIUM,0
+FedEx Freight,2977.0,5,HIGH,0.24,LOW,1
+Maersk Intermodal,1451.5,3,LOW,0.9,MEDIUM,1
+UPS Supply Chain Solutions,2399.4,4,LOW,0.87,URGENT,0
+UPS Supply Chain Solutions,2614.7,5,LOW,0.69,URGENT,0
+UPS Supply Chain Solutions,3677.0,7,MEDIUM,0.81,MEDIUM,0
+DHL Express Global,1604.7,3,MEDIUM,0.93,LOW,1
+UPS Supply Chain Solutions,2970.3,5,MEDIUM,0.57,URGENT,0
+UPS Supply Chain Solutions,2315.7,4,MEDIUM,0.99,MEDIUM,0
+Maersk Intermodal,396.7,1,LOW,0.31,URGENT,1
+UPS Supply Chain Solutions,3387.9,7,MEDIUM,0.26,MEDIUM,0
+Maersk Intermodal,527.6,2,LOW,0.13,URGENT,0
+Maersk Intermodal,1604.4,4,MEDIUM,0.86,HIGH,0
+Maersk Intermodal,3735.4,8,LOW,0.41,LOW,0
+Maersk Intermodal,3452.7,6,HIGH,0.43,MEDIUM,1
+FedEx Freight,822.8,2,LOW,0.07,HIGH,0
+Maersk Intermodal,3644.2,7,HIGH,0.66,LOW,1
+UPS Supply Chain Solutions,316.3,1,LOW,0.22,HIGH,0
+DHL Express Global,2794.2,5,HIGH,0.82,HIGH,1
+FedEx Freight,1403.6,3,HIGH,0.5,URGENT,0
+UPS Supply Chain Solutions,2673.6,5,MEDIUM,0.05,LOW,1
+Maersk Intermodal,1157.4,3,MEDIUM,0.49,HIGH,0
+Maersk Intermodal,689.1,3,HIGH,0.24,URGENT,0
+UPS Supply Chain Solutions,2891.8,6,MEDIUM,0.14,HIGH,0
+UPS Supply Chain Solutions,2951.4,6,HIGH,0.52,URGENT,1
+UPS Supply Chain Solutions,2377.5,4,LOW,0.7,LOW,0
+DHL Express Global,773.3,2,MEDIUM,0.85,LOW,1
+DHL Express Global,479.1,1,LOW,0.72,HIGH,1
+Maersk Intermodal,961.2,3,HIGH,0.3,LOW,0
+Maersk Intermodal,1438.3,4,LOW,0.01,HIGH,0
+Maersk Intermodal,1469.3,3,MEDIUM,0.7,LOW,1
+DHL Express Global,1892.2,4,LOW,0.93,URGENT,0
+Maersk Intermodal,1027.1,2,LOW,0.26,MEDIUM,0
+UPS Supply Chain Solutions,628.4,2,MEDIUM,0.22,HIGH,0
+UPS Supply Chain Solutions,1836.8,4,MEDIUM,0.16,LOW,1
+UPS Supply Chain Solutions,834.6,3,MEDIUM,0.92,LOW,1
+FedEx Freight,2799.0,6,LOW,0.75,URGENT,1
+FedEx Freight,2601.7,6,HIGH,0.8,URGENT,1
+FedEx Freight,3209.8,7,LOW,0.37,MEDIUM,1
+DHL Express Global,3260.9,7,LOW,0.96,LOW,1
+DHL Express Global,2483.0,6,LOW,0.4,HIGH,0
+UPS Supply Chain Solutions,3250.2,7,MEDIUM,0.53,HIGH,0
+DHL Express Global,2439.2,5,LOW,0.78,MEDIUM,1
+FedEx Freight,1364.3,3,HIGH,0.22,MEDIUM,1
+Maersk Intermodal,3614.6,8,HIGH,0.74,LOW,1
+Maersk Intermodal,1291.7,4,LOW,0.11,URGENT,1
+Maersk Intermodal,1937.1,4,HIGH,0.03,HIGH,0
+DHL Express Global,3284.7,6,MEDIUM,0.86,URGENT,1
+Maersk Intermodal,2901.6,5,MEDIUM,0.68,URGENT,0
+FedEx Freight,1475.8,3,LOW,0.82,LOW,1
+Maersk Intermodal,3186.9,7,LOW,0.36,LOW,1
+Maersk Intermodal,1007.2,2,LOW,0.25,HIGH,0
+UPS Supply Chain Solutions,3096.0,6,MEDIUM,0.58,MEDIUM,1
+DHL Express Global,866.3,2,LOW,0.5,HIGH,0
+Maersk Intermodal,2456.7,6,MEDIUM,0.33,MEDIUM,1
+UPS Supply Chain Solutions,2543.3,5,MEDIUM,0.5,HIGH,0
+DHL Express Global,3782.6,7,MEDIUM,0.91,MEDIUM,1
+FedEx Freight,1929.3,5,LOW,0.55,HIGH,0
+UPS Supply Chain Solutions,3001.4,7,MEDIUM,0.77,LOW,1
+FedEx Freight,2366.9,4,LOW,0.43,MEDIUM,1
+FedEx Freight,3057.0,6,MEDIUM,0.04,LOW,0
+Maersk Intermodal,3080.8,7,MEDIUM,0.57,MEDIUM,1
+Maersk Intermodal,1023.8,3,HIGH,0.09,MEDIUM,1
+Maersk Intermodal,1468.4,3,MEDIUM,0.89,URGENT,0
+UPS Supply Chain Solutions,3572.1,6,LOW,0.39,URGENT,0
+DHL Express Global,2200.2,5,LOW,0.58,LOW,1
+DHL Express Global,3359.4,7,LOW,0.65,HIGH,1
+Maersk Intermodal,960.5,2,HIGH,0.99,URGENT,1
+Maersk Intermodal,3154.4,7,MEDIUM,0.57,URGENT,1
+Maersk Intermodal,1786.4,4,LOW,0.13,URGENT,0
+UPS Supply Chain Solutions,3638.7,8,MEDIUM,0.46,URGENT,0
+DHL Express Global,1909.5,4,HIGH,0.88,LOW,1
+UPS Supply Chain Solutions,2173.9,4,MEDIUM,0.33,MEDIUM,0
+DHL Express Global,2845.1,6,HIGH,0.25,URGENT,0
+FedEx Freight,3387.5,6,MEDIUM,0.01,LOW,0
+UPS Supply Chain Solutions,3452.4,7,MEDIUM,0.98,HIGH,1
+FedEx Freight,1880.1,4,MEDIUM,0.03,HIGH,0
+FedEx Freight,3617.5,7,LOW,0.58,URGENT,0
+DHL Express Global,2910.3,6,MEDIUM,0.6,HIGH,1
+Maersk Intermodal,2231.2,4,LOW,0.7,URGENT,1
+DHL Express Global,3483.2,6,MEDIUM,0.67,MEDIUM,1
+UPS Supply Chain Solutions,2383.7,4,MEDIUM,0.33,MEDIUM,0
+FedEx Freight,1525.6,4,LOW,0.27,MEDIUM,0
+Maersk Intermodal,3351.0,7,MEDIUM,0.3,URGENT,0
+FedEx Freight,2322.4,4,HIGH,0.67,HIGH,1
+Maersk Intermodal,2030.0,4,LOW,0.44,HIGH,1
+Maersk Intermodal,2096.9,4,MEDIUM,0.65,LOW,0
+FedEx Freight,2714.7,5,MEDIUM,0.35,LOW,1
+FedEx Freight,3781.4,7,HIGH,0.57,LOW,1
+Maersk Intermodal,979.8,2,MEDIUM,0.49,HIGH,0
+DHL Express Global,1740.0,4,MEDIUM,0.4,MEDIUM,1
+Maersk Intermodal,3448.2,7,HIGH,0.03,MEDIUM,0
+FedEx Freight,633.1,3,LOW,0.51,URGENT,0
+UPS Supply Chain Solutions,2539.3,5,MEDIUM,0.5,MEDIUM,1
+Maersk Intermodal,3436.0,6,MEDIUM,0.52,LOW,1
+UPS Supply Chain Solutions,473.2,2,HIGH,0.64,HIGH,0
+DHL Express Global,969.7,3,LOW,0.41,MEDIUM,1
+DHL Express Global,1654.5,3,MEDIUM,0.25,HIGH,0
+Maersk Intermodal,1552.9,3,LOW,0.92,URGENT,1
+FedEx Freight,1283.3,3,HIGH,0.12,HIGH,1
+UPS Supply Chain Solutions,2582.4,5,LOW,0.97,HIGH,1
+DHL Express Global,597.6,1,HIGH,0.53,LOW,0
+FedEx Freight,1096.1,3,MEDIUM,0.85,MEDIUM,1
+FedEx Freight,3017.1,6,LOW,0.76,URGENT,0
+UPS Supply Chain Solutions,2688.0,5,LOW,0.89,URGENT,0
+FedEx Freight,2553.9,6,LOW,0.29,MEDIUM,0
+DHL Express Global,1768.3,4,LOW,0.74,URGENT,0
+UPS Supply Chain Solutions,978.9,3,MEDIUM,0.2,URGENT,0
+DHL Express Global,307.3,2,HIGH,0.45,URGENT,1
+UPS Supply Chain Solutions,1955.3,5,MEDIUM,0.57,URGENT,1
+UPS Supply Chain Solutions,2778.7,5,HIGH,0.26,URGENT,1
+DHL Express Global,3735.3,8,MEDIUM,0.41,MEDIUM,1
+DHL Express Global,315.3,1,MEDIUM,0.98,LOW,0
+Maersk Intermodal,2872.3,5,LOW,0.92,URGENT,1
+Maersk Intermodal,3443.9,7,LOW,0.97,MEDIUM,1
+FedEx Freight,1254.5,4,LOW,0.17,MEDIUM,0
+Maersk Intermodal,1936.8,4,MEDIUM,0.39,MEDIUM,1
+DHL Express Global,2824.3,6,MEDIUM,0.77,MEDIUM,1
+FedEx Freight,3533.5,6,MEDIUM,0.71,MEDIUM,0
+Maersk Intermodal,893.1,2,MEDIUM,0.14,MEDIUM,1
+DHL Express Global,1227.4,4,MEDIUM,0.95,URGENT,0
+UPS Supply Chain Solutions,2999.0,6,MEDIUM,0.34,HIGH,1
+FedEx Freight,1539.5,4,LOW,0.18,URGENT,0
+DHL Express Global,1730.3,3,MEDIUM,0.36,MEDIUM,0
+FedEx Freight,930.2,3,LOW,0.08,URGENT,1
+FedEx Freight,2674.0,6,HIGH,0.6,LOW,1
+Maersk Intermodal,3741.5,8,LOW,0.73,URGENT,1
+DHL Express Global,3595.4,6,MEDIUM,0.28,URGENT,1
+DHL Express Global,3391.2,7,HIGH,0.64,HIGH,1
+FedEx Freight,3735.8,8,LOW,0.89,HIGH,0
+DHL Express Global,2129.8,5,MEDIUM,0.53,HIGH,0
+UPS Supply Chain Solutions,944.8,2,LOW,0.13,MEDIUM,0
+DHL Express Global,1893.8,4,LOW,0.3,URGENT,0
+UPS Supply Chain Solutions,3174.5,7,LOW,0.79,MEDIUM,0
+Maersk Intermodal,1127.4,3,MEDIUM,0.72,LOW,1
+UPS Supply Chain Solutions,1856.0,5,MEDIUM,0.83,MEDIUM,1
+FedEx Freight,3795.4,7,MEDIUM,0.73,LOW,1
+FedEx Freight,1876.9,4,MEDIUM,0.99,MEDIUM,0
+Maersk Intermodal,2692.9,5,MEDIUM,0.14,LOW,0
+UPS Supply Chain Solutions,2281.7,5,LOW,0.87,HIGH,0
+UPS Supply Chain Solutions,2967.7,5,MEDIUM,0.05,URGENT,0
+FedEx Freight,726.5,3,MEDIUM,0.25,HIGH,0
+DHL Express Global,3350.6,7,HIGH,0.45,LOW,1
+FedEx Freight,1575.1,4,HIGH,0.3,LOW,1
+DHL Express Global,2031.3,5,MEDIUM,0.75,LOW,1
+FedEx Freight,3622.6,7,MEDIUM,0.48,HIGH,1
+DHL Express Global,3501.4,6,MEDIUM,0.22,URGENT,0
+Maersk Intermodal,3268.8,7,HIGH,0.86,URGENT,1
+DHL Express Global,2444.3,5,MEDIUM,0.14,URGENT,0
+FedEx Freight,1811.2,4,HIGH,0.04,LOW,0
+DHL Express Global,1710.8,3,MEDIUM,0.52,HIGH,0
+UPS Supply Chain Solutions,1589.4,4,MEDIUM,0.66,URGENT,1
+DHL Express Global,3769.8,7,LOW,0.83,URGENT,1
+DHL Express Global,1852.6,4,LOW,0.41,HIGH,0
+Maersk Intermodal,2397.2,5,MEDIUM,0.34,HIGH,0
+Maersk Intermodal,3462.7,7,MEDIUM,0.74,URGENT,1
+Maersk Intermodal,3202.0,6,MEDIUM,0.08,LOW,0
+FedEx Freight,1216.2,4,MEDIUM,0.72,HIGH,1
+Maersk Intermodal,2874.1,6,HIGH,0.96,LOW,1
+FedEx Freight,349.7,2,MEDIUM,0.22,HIGH,0
+Maersk Intermodal,3705.3,8,HIGH,0.18,URGENT,0
+UPS Supply Chain Solutions,2281.9,5,MEDIUM,0.03,MEDIUM,0
+DHL Express Global,348.2,1,MEDIUM,0.49,LOW,1
+DHL Express Global,2668.7,6,HIGH,0.69,HIGH,0
+DHL Express Global,2535.5,5,MEDIUM,0.6,HIGH,0
+UPS Supply Chain Solutions,2426.0,5,LOW,0.65,MEDIUM,0
+Maersk Intermodal,2671.0,6,MEDIUM,0.92,HIGH,1
+DHL Express Global,2980.6,6,HIGH,0.74,URGENT,0
+DHL Express Global,608.5,2,LOW,0.58,LOW,0
+FedEx Freight,1752.4,3,HIGH,0.06,LOW,0
+Maersk Intermodal,436.7,2,LOW,0.46,HIGH,0
+UPS Supply Chain Solutions,1647.0,3,MEDIUM,0.29,URGENT,0
+FedEx Freight,344.5,1,LOW,0.75,URGENT,0
+DHL Express Global,2759.6,6,MEDIUM,0.45,URGENT,0
+UPS Supply Chain Solutions,742.8,3,HIGH,0.57,MEDIUM,0
+Maersk Intermodal,2573.4,6,MEDIUM,0.72,MEDIUM,0
+DHL Express Global,2795.2,5,MEDIUM,0.18,URGENT,1
+FedEx Freight,3333.7,7,MEDIUM,0.05,HIGH,1
+Maersk Intermodal,2171.3,5,HIGH,0.91,LOW,1
+Maersk Intermodal,2021.4,5,MEDIUM,0.88,LOW,0
+UPS Supply Chain Solutions,1899.6,4,HIGH,0.28,URGENT,0
+UPS Supply Chain Solutions,3783.5,7,LOW,0.44,HIGH,1
+DHL Express Global,1851.9,4,LOW,0.22,HIGH,0
+DHL Express Global,2063.3,5,LOW,0.24,URGENT,1
+UPS Supply Chain Solutions,2126.2,4,MEDIUM,0.36,MEDIUM,0
+DHL Express Global,443.1,2,MEDIUM,0.24,LOW,0
+DHL Express Global,1179.4,2,MEDIUM,0.34,MEDIUM,0
+Maersk Intermodal,2060.7,5,LOW,0.89,LOW,1
+DHL Express Global,1718.7,3,HIGH,0.37,URGENT,1
+DHL Express Global,2203.8,4,LOW,0.04,URGENT,0
+Maersk Intermodal,1488.0,3,MEDIUM,1.0,URGENT,1
+FedEx Freight,844.3,2,LOW,0.51,HIGH,0
+FedEx Freight,3735.3,8,HIGH,0.57,MEDIUM,1
+FedEx Freight,2154.5,5,MEDIUM,0.66,URGENT,0
+Maersk Intermodal,2510.2,5,HIGH,0.87,MEDIUM,1
+UPS Supply Chain Solutions,2786.6,6,MEDIUM,0.55,HIGH,1
+FedEx Freight,2364.1,4,LOW,0.63,LOW,1
+DHL Express Global,3602.8,8,HIGH,0.69,URGENT,1
+Maersk Intermodal,2882.8,6,MEDIUM,0.52,HIGH,0
+UPS Supply Chain Solutions,3659.8,8,LOW,0.34,LOW,0
+UPS Supply Chain Solutions,2093.1,4,LOW,0.16,LOW,1
+UPS Supply Chain Solutions,1862.2,5,LOW,0.19,URGENT,0
+FedEx Freight,2436.7,6,LOW,0.43,HIGH,0
+FedEx Freight,2882.9,6,MEDIUM,0.93,LOW,1
+FedEx Freight,542.5,1,HIGH,0.4,LOW,1
+FedEx Freight,3208.7,7,LOW,0.89,URGENT,1
+Maersk Intermodal,589.6,2,HIGH,0.2,URGENT,0
+UPS Supply Chain Solutions,2692.2,6,LOW,0.56,MEDIUM,1
+DHL Express Global,1090.5,3,LOW,0.09,MEDIUM,0
+Maersk Intermodal,1465.3,3,HIGH,0.9,HIGH,1
+DHL Express Global,2932.2,6,HIGH,0.56,HIGH,1
+DHL Express Global,3222.8,6,MEDIUM,0.73,URGENT,1
+Maersk Intermodal,504.8,1,MEDIUM,0.51,LOW,1
+DHL Express Global,3737.8,8,MEDIUM,0.6,URGENT,1
+DHL Express Global,372.7,1,LOW,0.31,LOW,0
+UPS Supply Chain Solutions,1766.7,4,MEDIUM,0.78,URGENT,0
+FedEx Freight,3133.1,6,MEDIUM,0.45,LOW,0
+UPS Supply Chain Solutions,2279.1,5,MEDIUM,0.1,HIGH,0
+UPS Supply Chain Solutions,1724.4,3,MEDIUM,0.28,MEDIUM,0
+UPS Supply Chain Solutions,1408.4,4,HIGH,0.53,HIGH,1
+FedEx Freight,3630.4,8,MEDIUM,0.81,MEDIUM,1
+FedEx Freight,1809.1,4,MEDIUM,0.24,URGENT,0
+Maersk Intermodal,1870.6,4,MEDIUM,0.37,URGENT,0
+FedEx Freight,1606.7,4,MEDIUM,0.6,LOW,0
+DHL Express Global,737.1,3,LOW,0.31,MEDIUM,0
+FedEx Freight,776.1,2,LOW,0.43,MEDIUM,1
+FedEx Freight,365.0,1,LOW,0.15,LOW,0
+DHL Express Global,1994.4,5,MEDIUM,0.46,HIGH,0
+UPS Supply Chain Solutions,1632.3,3,HIGH,0.17,LOW,1
+FedEx Freight,1607.6,3,MEDIUM,0.69,HIGH,1
+FedEx Freight,2697.0,5,LOW,0.67,MEDIUM,0
+FedEx Freight,936.4,3,MEDIUM,0.08,URGENT,0
+UPS Supply Chain Solutions,725.0,3,MEDIUM,0.99,URGENT,1
+Maersk Intermodal,1900.5,4,HIGH,0.21,MEDIUM,0
+UPS Supply Chain Solutions,2027.5,4,HIGH,0.33,MEDIUM,1
+UPS Supply Chain Solutions,1145.9,3,MEDIUM,0.5,LOW,1
+DHL Express Global,1829.6,4,LOW,0.42,LOW,0
+DHL Express Global,1178.7,2,MEDIUM,0.37,URGENT,0
+Maersk Intermodal,3413.6,7,LOW,0.08,URGENT,0
+DHL Express Global,3742.1,7,LOW,0.05,URGENT,0
+DHL Express Global,1761.6,4,LOW,0.37,MEDIUM,0
+FedEx Freight,1496.3,3,HIGH,0.29,MEDIUM,1
+Maersk Intermodal,1680.9,4,LOW,0.06,HIGH,0
+UPS Supply Chain Solutions,1791.3,4,HIGH,0.71,MEDIUM,1
+FedEx Freight,2114.8,4,HIGH,0.61,LOW,1
+Maersk Intermodal,1007.3,2,MEDIUM,0.58,LOW,0
+UPS Supply Chain Solutions,3426.7,6,MEDIUM,0.17,URGENT,0
+UPS Supply Chain Solutions,2387.2,4,HIGH,0.75,HIGH,1
+DHL Express Global,1498.9,4,LOW,0.75,LOW,0
+DHL Express Global,2246.8,5,MEDIUM,0.02,LOW,1
+Maersk Intermodal,986.1,3,MEDIUM,0.44,LOW,0
+Maersk Intermodal,740.6,2,HIGH,0.36,URGENT,0
+DHL Express Global,1688.0,4,HIGH,0.68,MEDIUM,1
+Maersk Intermodal,3578.0,7,HIGH,0.68,MEDIUM,0
+FedEx Freight,2203.3,5,HIGH,0.23,URGENT,1
+Maersk Intermodal,1697.0,3,HIGH,0.99,MEDIUM,1
+DHL Express Global,3306.6,7,LOW,0.59,LOW,1
+Maersk Intermodal,1549.6,3,MEDIUM,0.24,HIGH,1
+Maersk Intermodal,1256.6,3,LOW,0.58,HIGH,0
+FedEx Freight,711.6,2,HIGH,0.21,LOW,0
+Maersk Intermodal,2843.0,6,LOW,0.08,HIGH,0
+Maersk Intermodal,1879.8,4,MEDIUM,0.43,LOW,1
+UPS Supply Chain Solutions,786.2,2,MEDIUM,0.95,URGENT,0
+Maersk Intermodal,865.4,2,LOW,0.6,HIGH,0
+FedEx Freight,2916.9,5,HIGH,0.05,HIGH,1
+UPS Supply Chain Solutions,3102.7,7,LOW,0.74,URGENT,1
+FedEx Freight,3510.9,7,MEDIUM,0.51,HIGH,1
+DHL Express Global,3113.2,7,MEDIUM,0.32,LOW,1
+UPS Supply Chain Solutions,3046.7,6,HIGH,0.09,LOW,1
+UPS Supply Chain Solutions,1257.7,3,LOW,0.22,HIGH,1
+UPS Supply Chain Solutions,1486.4,3,MEDIUM,0.06,MEDIUM,1
+UPS Supply Chain Solutions,2368.7,5,LOW,0.91,MEDIUM,0
+DHL Express Global,2939.7,5,LOW,0.28,MEDIUM,1
+FedEx Freight,2694.5,6,MEDIUM,0.17,MEDIUM,1
+FedEx Freight,3723.3,8,LOW,0.11,LOW,1
+UPS Supply Chain Solutions,1110.0,2,MEDIUM,0.52,HIGH,0
+DHL Express Global,2420.2,5,MEDIUM,0.6,LOW,0
+UPS Supply Chain Solutions,3749.0,7,MEDIUM,0.19,HIGH,1
+UPS Supply Chain Solutions,873.0,2,MEDIUM,0.27,URGENT,0
+UPS Supply Chain Solutions,1568.3,4,HIGH,0.55,HIGH,1
+DHL Express Global,3340.0,7,HIGH,0.07,URGENT,1
+FedEx Freight,2168.3,5,HIGH,0.33,URGENT,0
+FedEx Freight,1790.4,3,MEDIUM,0.34,URGENT,0
+UPS Supply Chain Solutions,970.1,2,MEDIUM,0.9,MEDIUM,1
+Maersk Intermodal,1362.9,4,LOW,1.0,MEDIUM,1
+DHL Express Global,1045.3,2,MEDIUM,0.74,LOW,0
+Maersk Intermodal,2783.5,5,LOW,0.66,URGENT,1
+Maersk Intermodal,1007.5,2,HIGH,0.74,HIGH,1
+DHL Express Global,1146.0,3,MEDIUM,0.96,LOW,0
+Maersk Intermodal,694.4,3,LOW,0.02,LOW,0
+UPS Supply Chain Solutions,3049.1,7,LOW,0.56,LOW,1
+FedEx Freight,2792.1,6,LOW,0.89,MEDIUM,1
+DHL Express Global,2932.2,6,LOW,0.51,HIGH,0
+FedEx Freight,1212.5,3,MEDIUM,0.91,LOW,0
+UPS Supply Chain Solutions,2303.7,4,HIGH,0.66,MEDIUM,1
+DHL Express Global,3706.1,8,MEDIUM,0.44,HIGH,1
+Maersk Intermodal,3005.6,7,HIGH,0.34,URGENT,1
+DHL Express Global,676.3,2,MEDIUM,0.15,URGENT,1
+UPS Supply Chain Solutions,3097.5,7,LOW,0.2,URGENT,0
+Maersk Intermodal,1300.9,4,MEDIUM,0.24,HIGH,1
+Maersk Intermodal,2137.1,5,LOW,0.29,MEDIUM,0
+UPS Supply Chain Solutions,3604.2,8,MEDIUM,0.41,MEDIUM,1
+Maersk Intermodal,1775.5,3,HIGH,0.86,URGENT,0
+Maersk Intermodal,2525.6,6,LOW,0.63,MEDIUM,0
+DHL Express Global,3199.9,6,HIGH,0.99,HIGH,1
+Maersk Intermodal,2860.1,6,MEDIUM,0.59,HIGH,1
+Maersk Intermodal,573.4,1,MEDIUM,0.41,MEDIUM,0
+FedEx Freight,3420.5,7,LOW,0.7,HIGH,0
+UPS Supply Chain Solutions,2639.3,5,HIGH,0.19,LOW,1
+DHL Express Global,3469.1,7,LOW,0.18,HIGH,0
+DHL Express Global,3116.4,6,HIGH,0.66,HIGH,1
+UPS Supply Chain Solutions,2521.9,5,LOW,0.49,MEDIUM,0
+UPS Supply Chain Solutions,495.6,1,HIGH,0.86,URGENT,1
+Maersk Intermodal,1589.9,3,LOW,0.3,URGENT,0
+Maersk Intermodal,2661.6,5,MEDIUM,0.53,HIGH,1
+FedEx Freight,1923.6,4,HIGH,0.99,HIGH,1
+Maersk Intermodal,823.6,3,MEDIUM,0.58,MEDIUM,1
+Maersk Intermodal,3469.4,7,HIGH,0.67,HIGH,0
+DHL Express Global,2039.8,5,LOW,0.53,LOW,0
+DHL Express Global,2875.9,5,MEDIUM,0.64,MEDIUM,1
+Maersk Intermodal,3120.8,7,MEDIUM,0.24,HIGH,0
+Maersk Intermodal,2150.4,4,MEDIUM,0.15,URGENT,0
+DHL Express Global,3040.5,6,HIGH,0.53,HIGH,1
+UPS Supply Chain Solutions,1383.3,3,LOW,0.83,HIGH,1
+FedEx Freight,1838.0,5,MEDIUM,0.12,URGENT,0
+FedEx Freight,578.7,1,MEDIUM,0.42,URGENT,1
+FedEx Freight,2174.3,5,MEDIUM,0.24,LOW,0
+Maersk Intermodal,1602.1,4,LOW,0.12,MEDIUM,0
+UPS Supply Chain Solutions,1333.2,3,LOW,0.18,HIGH,0
+UPS Supply Chain Solutions,847.1,2,MEDIUM,0.23,MEDIUM,1
+DHL Express Global,3217.9,7,LOW,0.7,LOW,1
+DHL Express Global,1190.7,3,HIGH,0.57,HIGH,1
+FedEx Freight,3330.2,6,HIGH,0.63,URGENT,1
+DHL Express Global,1453.9,3,MEDIUM,0.33,URGENT,0
+UPS Supply Chain Solutions,2377.2,5,MEDIUM,0.14,HIGH,1
+Maersk Intermodal,2589.8,5,LOW,0.23,LOW,0
+FedEx Freight,1094.0,2,MEDIUM,0.75,LOW,1
+FedEx Freight,3315.2,7,MEDIUM,0.81,URGENT,1
+UPS Supply Chain Solutions,1440.8,3,HIGH,0.44,HIGH,0
+Maersk Intermodal,383.0,1,LOW,0.65,URGENT,0
+Maersk Intermodal,2810.5,6,HIGH,0.45,LOW,0
+FedEx Freight,1458.4,3,LOW,0.95,HIGH,1
+FedEx Freight,3035.9,6,LOW,0.37,MEDIUM,0
+UPS Supply Chain Solutions,2060.7,5,HIGH,0.24,LOW,1
+UPS Supply Chain Solutions,2956.9,6,LOW,0.44,HIGH,0
+Maersk Intermodal,2637.6,6,HIGH,0.35,LOW,0
+UPS Supply Chain Solutions,2229.1,4,LOW,0.92,URGENT,1
+Maersk Intermodal,2834.6,5,MEDIUM,0.39,LOW,1
+Maersk Intermodal,2155.8,5,HIGH,0.08,LOW,0
+UPS Supply Chain Solutions,1224.1,3,MEDIUM,0.83,MEDIUM,1
+UPS Supply Chain Solutions,3742.0,7,HIGH,0.78,URGENT,1
+Maersk Intermodal,3581.0,7,MEDIUM,0.0,HIGH,1
+Maersk Intermodal,1756.7,4,LOW,0.34,HIGH,0

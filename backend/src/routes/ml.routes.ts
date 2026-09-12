@@ -250,3 +250,4 @@ router.get('/risk-scores', authenticateJWT, async (req: AuthRequest, res: Respon
 });
 
 export default router;
+

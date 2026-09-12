@@ -134,7 +134,7 @@ async function initDbFeatures() {
       console.log(`Executing step ${i + 1}/${statements.length}...`);
       await prisma.$executeRawUnsafe(stmt);
     }
-    console.log('✅ All DBMS Views, Triggers, and Constraints Initialized Successfully!');
+    console.log('All DBMS Views, Triggers, and Constraints Initialized Successfully!');
   } catch (error) {
     console.error('Error applying DBMS features:', error);
     process.exit(1);
@@ -144,3 +144,4 @@ async function initDbFeatures() {
 }
 
 initDbFeatures();
+

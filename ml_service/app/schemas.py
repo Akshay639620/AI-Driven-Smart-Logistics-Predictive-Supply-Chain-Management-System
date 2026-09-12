@@ -32,3 +32,4 @@ class DelayRiskResponse(BaseModel):
     suggested_mitigation: str
     model_name: str = "RandomForestClassifier"
     model_version: str = "1.0.0"
+

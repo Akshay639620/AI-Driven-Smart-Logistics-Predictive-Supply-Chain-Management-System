@@ -69,3 +69,4 @@ export const authenticateJWT = async (
     });
   }
 };
+

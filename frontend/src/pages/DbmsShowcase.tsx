@@ -155,7 +155,7 @@ export const DbmsShowcase: React.FC = () => {
           <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-2">
             <div className="flex items-center justify-between">
               <span className="font-bold text-teal-400 font-mono">product_suppliers</span>
-              <Badge variant="teal">M:N Bridge</Badge>
+              <Badge variant="emerald">M:N Bridge</Badge>
             </div>
             <p className="text-slate-400 text-[11px]">
               Resolves <strong>Product ↔ Supplier</strong>. A product can be supplied by multiple vendors; a supplier offers many products.
